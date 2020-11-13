@@ -1,8 +1,9 @@
 /dist/*
 /screens/*
 /venv/*
-/1.PNG/
+/1.PNG
 /.idea/*
 /build/*
 /info.txt
 /parserTRENDYOL.spec
+/icon.ico
