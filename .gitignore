@@ -1,0 +1,13 @@
+/dist/*
+/screens/*
+/env/*
+/1.PNG
+/.idea/*
+/build/*
+/info.txt
+/parserTRENDYOL.spec
+/icon.ico
+*.csv
+*.jpg
+*.png
+*.ico

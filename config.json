@@ -1,0 +1,14 @@
+{
+	"timeout": "10",
+	"perpage": "100",
+	"gap": "0.5",
+	"proxy": "no",
+	"debug": "yes",
+	"key": "1jfksdhg*H@#*FJV:cj2892238hvVCxCKNVDSKLVIW&#@Y@#HGUVDLSAJKHFVSAGASgqhj3gr2rf",
+	"local": "no", 
+	"headers": "Brand;Name;ID;GroupID;Size;Color;Stock;Price;DiscountPrice;description;Images;",
+	"api-url": "https://api.trendyol.com/websearchgw/api/infinite-scroll/kadin+{0}?siralama=6&pi={1}&storefrontId=1&culture=tr-TR&userGenderId=1&searchStrategyType=DEFAULT&pId=ljZd49AsB3&scoringAlgorithmId=1&categoryRelevancyEnabled=undefined&isLegalRequirementConfirmed=True",
+	"categories" : ["ic-giyim-aksesuar", "sutyen"],
+	"count-links" : "4",
+	"test": "yes"
+}
