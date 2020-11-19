@@ -3,7 +3,7 @@ import sys
 
 import requests
 from torpy.http.requests import tor_requests_session
-import cfscrape
+import cfscrape # обход cloudflare
 
 import json
 from bs4 import BeautifulSoup as BSoup
@@ -23,8 +23,9 @@ TEST = False
 TIMEOUT = 10
 GAP = 0.0
 PERPAGE = 1
+MAX_COUNT_PRODUCTS = 300
 
-HEADERS = "Brand;Name;ID;GroupID;Size;Images;Stock;Price;DiscountPrice;color;"
+HEADERS = "Brand;Name;Barcode;GroupID;Size;Images;Stock;Price;DiscountPrice;color;"
 count_products = 0 # кол-во спаршеных страниц продуктов
 
 api_url = r'https://api.trendyol.com/websearchgw/api/infinite-scroll/kadin+{0}?siralama=6&pi={1}&storefrontId=1&culture=tr-TR&userGenderId=1&searchStrategyType=DEFAULT&pId=ljZd49AsB3&scoringAlgorithmId=1&categoryRelevancyEnabled=undefined&isLegalRequirementConfirmed=True'
@@ -46,6 +47,8 @@ def add_group_id(group_id):
     return True
 
 
+
+# make configuration
 try:
     with open("config.json", "rb") as fp:
         data = fp.read().decode(encoding='utf-8')
@@ -88,6 +91,7 @@ def get_response(url):
     Exceptions:
         - CriticalConnectionError: ошибки подключения на стороне клиента
     """
+    logger.debug(msg="trying load page with url - %s" % url)
     with tor_requests_session() as session:
         sess = cfscrape.create_scraper(sess=session, delay=GAP)
         try:
@@ -118,31 +122,48 @@ def download_image(urls):
         source_paths.append(out_path.partition(path_)[-1])
     return source_paths
 
+def find_json(static,start_token="window.__PRODUCT_DETAIL_APP_INITIAL_STATE__ = ", end_token="</script>"):
+    """
+    Ищет в тексте json по фразе-началу и фразе-концу. 
+    Возвращает словарь содержащий json.
+
+    Return type -> dict (json)
+
+    Parameters:
+        - static: текст содержащий json
+        - start_token: начинающий токен
+        - end_token: конечный токен
+
+    Exceptions:
+        - JSONDecodeError: ошибка в коде json
+    """
+    json_ = static[static.find(start_token) + len(start_token):]  # обрезает часть js-кода в которой содержится
+    json_ = json.loads(simplify(json_[:json_.find(end_token)])[:-1])  # json и парсит его.
+    return json_
+
 # parse
 def parse_info(resp,path):
     picdomain = r'https://cdn.dsmcdn.com/'
-
-    static = resp.text
-    phrase = "window.__PRODUCT_DETAIL_APP_INITIAL_STATE__ = "
+    json_ = {}
     try:
-        json_ = static[static.find(phrase) + len(phrase):]  # обрезает часть js-кода в которой содержится
-        json_ = json.loads(simplify(json_[:json_.find("</script>")])[:-1])  # json и парсит его.
+        json_ = find_json(static=resp.text)
     except json.JSONDecodeError as je:
-        logger.debug(msg="'JSONDecodeError' static - %s" % static)
+        logger.debug(msg="'JSONDecodeError' static - %s" % resp.text)
     with open(path, '+ab') as fp:
         try:
             # unpack json
             prod = json_['product']
+            name = prod['name']
+            brand = prod['brand']['name']
+            color = prod['color']
+            group_id = prod['productGroupId']
+            description = simplify(BSoup(prod['description'], 'html.parser').text)
+
             for variant in prod['variants']:
-                stock = "instock" if variant['stock'] is None else "outstock"
+                stock = variant['stock']
                 size = variant['attributeValue']
                 price = variant['price']['originalPrice']['value']
                 discount = variant['price']['discountedPrice']['value']
-                group_id = prod['productGroupId']
-                description = simplify(BSoup(prod['description'], 'html.parser').text)
-                name = prod['name']
-                brand = prod['brand']['name']
-                color = prod['color']
                 barcode = variant['barcode']
                 if DOWNLOAD_IMAGES:
                     images = ','.join(
@@ -150,19 +171,65 @@ def parse_info(resp,path):
                 else:
                     images = ','.join([picdomain + ipath for ipath in prod['images']])
 
-                
-
                 # writing into csv file
                 fp.write(bytes(
                     f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
                     , encoding="utf-8"))
 
                 
-        except KeyError:
+        except KeyError as ke:
             logger.debug("'KeyError' Json - %s" % str(json_))
 
 
+def parse_group(resp, path):
+    """
+    """
+    domain = r'https://www.trendyol.com'
+    json_ = {}
+    try:
+        json_ = find_json(static=resp.text)
+    except json.JSONDecodeError as je:
+        logger.debug(msg="'JSONDecodeError' static - %s" % resp.text)
+
+    try:
+        prod = json_['product']
+        url = prod['url']
+        id = prod['id']
+        productGroupId = prod['productGroupId']
+
+        response = get_response(group_url.format(productGroupId))
+
+        groupId_json = response.json()
+        group = groupId_json['result']['slicingAttributes'] # список
+
+        for slic_attrib in group: # словарь
+            attributes = slic_attrib['attributes'] # список словарей
+            if len(attributes) > 0: # если у товара есть группа, спарсить всю группу
+                for attrib in attributes:
+                    con = attrib['contents']
+                    attrib_url = con[0]['url']
+                    link = domain + attrib_url
+                    info_resp = get_response(link)
+                    parse_info(info_resp,path)
+            else: # если нету - только сам товар
+                link = domain+url
+                info_resp = get_response(link)
+                parse_info(info_resp,path)
+    except KeyError as ke:
+        logger.debug(msg="")
+
 def parse_json_pack(data,path):
+    """
+    Returns type: bool
+
+    Parameters:
+        - data:
+
+        - path:
+
+    Exceptions:
+        - No
+    """
     domain = r'https://www.trendyol.com'
 
     if data['statusCode'] == 200:
@@ -173,12 +240,15 @@ def parse_json_pack(data,path):
         for prod in data:
             link = domain + prod['url']
             resp = get_response(url=link)
-            parse_info(resp,path)
+            parse_group(resp,path)
             sleep(GAP)
 
             global count_products
             count_products += 1
-            print(f'\rЗагружено {count_products} вариантов товаров . . .', end='')
+            if count_products > MAX_COUNT_PRODUCTS:
+                count_products = 0
+                return True   
+            print(f'\rФайл [{path}] Загружено {count_products} товаров . . .', end='')
         return False
     else:
         return True
