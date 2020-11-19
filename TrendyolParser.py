@@ -1,25 +1,28 @@
 # отладить код настроить вызовы исключений
 import sys
+
 import requests
+from torpy.http.requests import tor_requests_session
+import cfscrape
 
 import json
-from ProxUtil import parse_proxies, parse_proxies_form_file, gen_proxy, test_proxies
 from bs4 import BeautifulSoup as BSoup
 from HeadersUtil import random_headers
 from TextUtil import simplify
 from time import sleep
 from exceptions import CriticalConnectionError, CriticalProxyError
-from selenium.common.exceptions import NoSuchElementException
 
+import logging
+
+logging.basicConfig(format="[ %(asctime)-15s ] %(url)s %(message)s")
+logger = logging.Logger(name='trendyolParser',level=logging.NOTSET)
 
 DEBUG = False
-PROXY = False
 DOWNLOAD_IMAGES = False
 TEST = False
 TIMEOUT = 10
 GAP = 0.0
 PERPAGE = 1
-COUNT_LINKS = 2
 
 HEADERS = "Brand;Name;ID;GroupID;Size;Images;Stock;Price;DiscountPrice;color;"
 count_products = 0 # кол-во спаршеных страниц продуктов
@@ -32,8 +35,6 @@ categories = [
     'korse', 'atlet--body', 'fantezi-giyim', 'pijama', 'ic-camasiri-takimlari', 'gecelik', 'string',
 ]
 
-url_http = r'http://free-proxy.cz/ru/proxylist/country/all/http/ping/all'
-url_https = r'http://free-proxy.cz/ru/proxylist/country/all/https/ping/all'
 
 list_group_id = set()
 
@@ -45,22 +46,6 @@ def add_group_id(group_id):
     return True
 
 
-def init():
-    try:
-        with open("http_proxies.txt", "w") as fp:
-            for line in parse_proxies(url_http, COUNT_LINKS):
-                fp.write(line)
-                fp.write("\n")
-        fp.close()
-        with open("https_proxies.txt", "w") as fp:
-            for line in parse_proxies(url_https, COUNT_LINKS):
-                fp.write(line)
-                fp.write("\n")
-        fp.close()
-    except NoSuchElementException:
-        print("Проблемы с прокси сервером")
-        sys.exit(-1)
-
 try:
     with open("config.json", "rb") as fp:
         data = fp.read().decode(encoding='utf-8')
@@ -69,54 +54,56 @@ try:
         GAP = float(conf['gap'])
         TIMEOUT = float(conf['timeout'])
         PERPAGE = int(conf['perpage'])
-        COUNT_LINKS = int(conf['count-links'])
         HEADERS = conf['headers']
         HEADERS += "\n"
         api_url = conf['api-url']
         categories = conf['categories']
 
-        if conf['test'] == 'yes':
-            TEST = True
         if conf['local'] == 'yes':
             DOWNLOAD_IMAGES = True
         if conf['key'] != "1jfksdhg*H@#*FJV:cj2892238hvVCxCKNVDSKLVIW&#@Y@#HGUVDLSAJKHFVSAGASgqhj3gr2rf":
             sys.exit(-10)
-        if conf['proxy'] == 'yes':
-            PROXY = True
+
         if conf['debug'] == 'yes':
             DEBUG = True
+            logger.setLevel(level=logging.DEBUG)
+
     fp.close()
 except (json.JSONDecodeError, IOError):
-    print(">>> Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
+    logging.critical(msg="Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
     sys.exit(-1)
 
 
-if PROXY:
-    init()
 
-https_proxies = parse_proxies_form_file(path_='https_proxies.txt')
-http_proxies = parse_proxies_form_file(path_='http_proxies.txt')
+def get_response(url):  
+    """
+    Делает запрос по адресу через сети Tor и возвращает ответ. 
+    Обрабатывает исключения.
+
+    Return type -> Response
+
+    Parametrs:
+        - url: адрес страницы
+
+    Exceptions:
+        - CriticalConnectionError: ошибки подключения на стороне клиента
+    """
+    with tor_requests_session() as session:
+        sess = cfscrape.create_scraper(sess=session, delay=GAP)
+        try:
+            resp = sess.get(url, timeout=TIMEOUT,
+                            headers=random_headers())
+            resp.raise_for_status()  # raise HTTPError
+            return resp # response
+        except requests.ConnectionError:
+            logger.debug(msg="'ConnectionError'", extra={'url': url})
+        except requests.HTTPError as http_err:
+            logger.debug(msg="'HTTPError' Код ошибки - %s" % http_err.response.status_code, extra={'url': url})
+        except requests.Timeout:
+            raise CriticalConnectionError
 
 
-def get_response(url):
-    for http, https in zip(http_proxies, https_proxies):
-        proxy = gen_proxy(http, https)
-        with requests.Session() as sess:
-            try:
-                resp = sess.get(url, timeout=TIMEOUT,
-                                headers=random_headers(), proxies=proxy)
-                resp.raise_for_status()  # raise HTTPError
-                return resp # response
-            except requests.ConnectionError:
-                if DEBUG:
-                    print("\n>>> (ConnectionError) Ошибка подключения. ip-address - %s" % proxy['http'])
-            except requests.HTTPError as http_err:
-                if DEBUG:
-                    print("\n>>> (HTTPError) Код ошибки %d" % http_err.response.status_code)
-            except requests.Timeout:
-                raise CriticalConnectionError
 
-    raise CriticalProxyError
 
 def download_image(urls):
     domain = r'https://cdn.dsmcdn.com//'
@@ -141,8 +128,7 @@ def parse_info(resp,path):
         json_ = static[static.find(phrase) + len(phrase):]  # обрезает часть js-кода в которой содержится
         json_ = json.loads(simplify(json_[:json_.find("</script>")])[:-1])  # json и парсит его.
     except json.JSONDecodeError as je:
-        if DEBUG:
-            print("\n>>> (JSONDecodeError) Содержимое ответа resp.content:\n%s" % resp.text)
+        logger.debug(msg="'JSONDecodeError' static - %s" % static)
     with open(path, '+ab') as fp:
         try:
             # unpack json
@@ -164,18 +150,16 @@ def parse_info(resp,path):
                 else:
                     images = ','.join([picdomain + ipath for ipath in prod['images']])
 
-                global count_products
-                count_products += 1
+                
 
                 # writing into csv file
                 fp.write(bytes(
                     f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
                     , encoding="utf-8"))
 
-                print(f'\rЗагружено {count_products} вариантов товаров . . .', end='')
+                
         except KeyError:
-            if DEBUG:
-                print(">>> (KeyError) Содержимое ответа:\n %s" % str(json_))
+            logger.debug("'KeyError' Json - %s" % str(json_))
 
 
 def parse_json_pack(data,path):
@@ -191,6 +175,10 @@ def parse_json_pack(data,path):
             resp = get_response(url=link)
             parse_info(resp,path)
             sleep(GAP)
+
+            global count_products
+            count_products += 1
+            print(f'\rЗагружено {count_products} вариантов товаров . . .', end='')
         return False
     else:
         return True
@@ -205,9 +193,6 @@ def parse(category):
         # main loop
         while True:
             url = api_url.format(category, str(i))
-            if DEBUG:
-                print(f"\nКатегория '{category}' страница №{i}.")
-                print("*" * 60)
             resp = get_response(url)
             sleep(GAP)
             # попытка парсинга блока json
@@ -217,39 +202,37 @@ def parse(category):
             else:
                 i += PERPAGE
     except CriticalConnectionError:
-        print("\n>>> Сервер не отправил никаких данных в отведенное время.")
-        input("\n>>> Пожалуйста проверьте интернет соединение.")
+        logger.critical(msg="Сервер не отправил никаких данных в отведенное время.\nПожалуйста проверьте интернет соединение.")
         sys.exit(-1)
     except CriticalProxyError:
-        input("""Нету надежных прокси серверов. Пожалуйста добавьте ip-адреса в файлы http_proxies.txt и https_proxies.txt""")
+        logger.critical("Нету надежных прокси серверов.")
         sys.exit(-1)
 
-# тестирование проксей
-if TEST:
-    http_proxies, https_proxies = test_proxies(http_proxies, https_proxies)
+
+
+
+links = ['https://ifconfig.me', 'https://vk.com', 'https://trendyol.com', 'https://youtube.com']
+
+
+
 
 # print configuration
 print()
 print('*' * 60)
-print("configuration of this program")
-print()
-print(
-    f"PROXY: {PROXY}\nDEBUG: {DEBUG}\nTIMEOUT: {TIMEOUT}\nGAP:{GAP}\nCOUNT_OF_PROXY_ADDRESS: {len(https_proxies)}\nCOUNT_PAGE_FOR_ONE_TIME: {PERPAGE}\nDOWNLOAD IMAGES: {DOWNLOAD_IMAGES}")
+print("configuration of this program\n")
+print(f"\nDEBUG: {DEBUG}\nTIMEOUT: {TIMEOUT}\nGAP:{GAP}\nCOUNT_PAGE_FOR_ONE_TIME: {PERPAGE}\nDOWNLOAD IMAGES: {DOWNLOAD_IMAGES}")
 print(api_url)
 print("Список категорий:\n",categories)
-print("Заголовки таблицы: %s\n" % HEADERS)
-print()
+print("Заголовки таблицы: %s\n\n" % HEADERS)
 print('*' * 60)
 
 # start
-if https_proxies and https_proxies:
-    # for url in urls:
-    #     parse_info(get_response(url), r"data/out.csv")
-    for categ in categories:
-        parse(categ)
-else:
-    print("""Нету надежных прокси серверов. Пожалуйста добавьте ip-адреса в файлы http_proxies.txt и https_proxies.txt""")
-sys.exit(0)
+
+for categ in categories:
+    parse(categ)
+
+
+
 
 
 
