@@ -9,14 +9,13 @@ import cfscrape # обход cloudflare
 import json
 from bs4 import BeautifulSoup as BSoup
 from HeadersUtil import random_headers
-from TextUtil import simplify
+from TextUtil import simplify, shorten
 from time import sleep
 from exceptions import CriticalConnectionError, CriticalProxyError
 
 import logging
 from collections import defaultdict
 
-logger = logging.Logger(name='trendyolParser',level=logging.NOTSET)
 
 DEBUG = False
 DOWNLOAD_IMAGES = False
@@ -39,8 +38,6 @@ categories = [
 ]
 
 
-list_group_id = defaultdict( list ) # словарь groupid-ов со списками спаршенных баркодов
-
 
 # make configuration
 try:
@@ -59,17 +56,17 @@ try:
 
         if conf['local'] == 'yes':
             DOWNLOAD_IMAGES = True
-        if conf['key'] != "1jfksdhg*H@#*FJV:cj2892238hvVCxCKNVDSKLVIW&#@Y@#HGUVDLSAJKHFVSAGASgqhj3gr2rf":
+        if conf['key'] != "Hkjfd;sak8#&%#jfikldsay75t8afhuiytdao5IHYF&3rhfuHJKELHFJKLDSHGFuHUE":
             sys.exit(-10)
-        if conf['upload'] == True:
+        if conf['upload'] == 'yes':
             UPLOAD = True
         if conf['debug'] == 'yes':
             DEBUG = True
-            logger.setLevel(level=logging.DEBUG)
+            
 
     fp.close()
 except (json.JSONDecodeError, IOError):
-    logger.critical(msg="Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
+    print("Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
     sys.exit(-1)
 
 
@@ -87,21 +84,28 @@ def get_response(url):
     Exceptions:
         - CriticalConnectionError: ошибки подключения на стороне клиента
     """
-    logger.debug(msg="trying load page with url - %s" % url)
     with tor_requests_session() as session:
-        sess = cfscrape.create_scraper(sess=session, delay=GAP)
+        sess = cfscrape.create_scraper(sess=session, delay=TIMEOUT)
         try:
+            
             resp = sess.get(url, timeout=TIMEOUT,
                             headers=random_headers())
             resp.raise_for_status()  # raise HTTPError
             return resp # response
 
+
         except TorSocketConnectError:
-            logger.debug(msg="'TorSocketConnectError' url - %s" % url)
-        except requests.ConnectionError:
-            logger.debug(msg="'ConnectionError'", extra={'url': url})
-        except requests.HTTPError as http_err:
-            logger.debug(msg="'HTTPError' Код ошибки - %s" % http_err.response.status_code, extra={'url': url})
+            if DEBUG:
+                print("'TorSocketConnectError' url - %s" % url)
+            return get_response(url)
+        except requests.HTTPError:
+            if DEBUG:
+                print("'HTTPError' url - %s" % url)
+            return get_response(url)
+        except requests.ConnectionError as conn_err:
+            if DEBUG:
+                print("'ConnectionError' info:\n%s" % conn_err.strerror)
+            return get_response(url)
         except requests.Timeout:
             raise CriticalConnectionError
 
@@ -139,6 +143,11 @@ def find_json(static,start_token="window.__PRODUCT_DETAIL_APP_INITIAL_STATE__ = 
     json_ = json.loads(simplify(json_[:json_.find(end_token)])[:-1])  # json и парсит его.
     return json_
 
+
+
+
+
+
 def download_info(json_, path):
     """
     Парсит информацию о товаре из json-а. Проверяет barcod-ы с прошлой загрузки.
@@ -160,50 +169,45 @@ def download_info(json_, path):
         try:
             # unpack json
             prod = json_['product']
-            name = prod['name']
-            brand = prod['brand']['name']
-            color = prod['color']
-            group_id = prod['productGroupId']
+            name, brand, color, group_id = (prod['name'], 
+            prod['brand']['name'], prod['color'], prod['productGroupId'] )
             description = simplify(BSoup(prod['description'], 'html.parser').text)
 
-            barcodes = set() # промежуточные баркоды
+            # первый со всеми атрибутами
+            headvar = prod['variants'][0]
+            stock, size, price, discount, barcode = (headvar['stock'], headvar['attributeValue'], 
+                headvar['price']['originalPrice']['value'],headvar['price']['discountedPrice']['value'], headvar['barcode'] )
+            if DOWNLOAD_IMAGES:
+                images = ','.join(
+                    download_image([picdomain + ipath for ipath in prod['images']]))
+            else:
+                images = ','.join([picdomain + ipath for ipath in prod['images']])
+            fp.write(bytes(
+                f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
+                , encoding="utf-8"))
 
-            for variant in prod['variants']:
-                stock = variant['stock']
-                size = variant['attributeValue']
-                price = variant['price']['originalPrice']['value']
-                discount = variant['price']['discountedPrice']['value']
-                barcode = variant['barcode']
-                barcodes.add(barcode)
-                if DOWNLOAD_IMAGES:
-                    images = ','.join(
-                        download_image([picdomain + ipath for ipath in prod['images']]))
-                else:
-                    images = ','.join([picdomain + ipath for ipath in prod['images']])
+            # запись вариантов товаров без названий и описания
+            for variant in prod['variants'][1:]:
+                stock, size, price, discount, barcode = (variant['stock'], variant['attributeValue'], 
+                variant['price']['originalPrice']['value'],variant['price']['discountedPrice']['value'], variant['barcode'] )
 
                 # writing into csv file
                 fp.write(bytes(
-                    f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
+                    f";;{barcode};{group_id};{size};{color};{stock};{price};{discount};;;\n"
                     , encoding="utf-8"))
-                brand, name, price, discount, description, images = ('', '', '', '', '', '')
-
-            list_group_id[group_id] = list(set(list_group_id[group_id]) & barcodes) # conjunction
-                
+ 
         except KeyError:
-            logger.debug("'KeyError' Json - %s" % str(json_))
+            print("'KeyError' Json - %s" % str(json_))
 
 
 def upload_info(json_, path):
     """
     """
-    picdomain = r'https://cdn.dsmcdn.com/'
-
     with open(path, '+ab') as fp:
         try:
             # unpack json
+            prod = json_['product']
             group_id = prod['productGroupId']
-
-            barcodes = set() # промежуточные баркоды
 
             for variant in prod['variants']:
                 stock = variant['stock']
@@ -211,28 +215,27 @@ def upload_info(json_, path):
                 price = variant['price']['originalPrice']['value']
                 discount = variant['price']['discountedPrice']['value']
                 barcode = variant['barcode']
-                barcodes.add(barcode)
-                if DOWNLOAD_IMAGES:
-                    images = ','.join(
-                        download_image([picdomain + ipath for ipath in prod['images']]))
-                else:
-                    images = ','.join([picdomain + ipath for ipath in prod['images']])
-
                 # writing into csv file
-                fp.write(bytes(
-                    f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
-                    , encoding="utf-8"))
-                brand, name, price, discount, description, images = ('', '', '', '', '', '')
+                fp.write(bytes(f";;{barcode};{group_id};{size};;{stock};{price};{discount};;;\n", encoding="utf-8"))
 
-            list_group_id[group_id] = list(set(list_group_id[group_id]) & barcodes) # conjunction
-                
         except KeyError:
-            logger.debug("'KeyError' Json - %s" % str(json_))
+            print("'KeyError' Json - %s" % str(json_))
 
 
 def download_products_group(json_, path, url):
     """
-
+    Return type:
+        - None
+    
+    Parameters:
+        - json_:
+            json сгруппированных товаров
+        - path:
+            путь файла для сохранения
+        - url:
+            url главного продукта, в случае если у продукта нету группы, будет спаршен только он.
+    Exceptions:
+        - No
     """
     domain = r'https://www.trendyol.com'
     try:
@@ -253,7 +256,7 @@ def download_products_group(json_, path, url):
                 info_resp = get_response(link)
                 parse_info(info_resp,path)
     except KeyError:
-        logger.debug(msg="'KeyError' Json - %s" % str(json_))
+        print("'KeyError' Json - %s" % str(json_))
 
 # parse
 def parse_info(resp,path):
@@ -272,9 +275,12 @@ def parse_info(resp,path):
     """
     try:
         json_ = find_json(static=resp.text)
-        download_info(json_,path)
+        if UPLOAD == True:
+            upload_info(json_, path)
+        else:
+            download_info(json_,path)
     except json.JSONDecodeError:
-        logger.debug(msg="'JSONDecodeError' static - %s" % resp.text)
+        print("'JSONDecodeError' static - %s" % resp.text)
 
     
 def parse_group(resp, path):
@@ -296,7 +302,7 @@ def parse_group(resp, path):
     try:
         json_ = find_json(static=resp.text)
     except json.JSONDecodeError:
-        logger.debug(msg="'JSONDecodeError' static - %s" % resp.text)
+        print("'JSONDecodeError' static - %s" % resp.text)
 
     try:
         prod = json_['product']
@@ -306,7 +312,7 @@ def parse_group(resp, path):
         response = get_response(group_url.format(productGroupId)) # group_id
         download_products_group(response.json(), path, url)
     except KeyError:
-        logger.debug(msg="")
+        print("")
 
 
 
@@ -366,47 +372,28 @@ def parse(category):
             else:
                 i += PERPAGE
     except CriticalConnectionError:
-        logger.critical(msg="Сервер не отправил никаких данных в отведенное время.\nПожалуйста проверьте интернет соединение.")
+        print("Сервер не отправил никаких данных в отведенное время.\nПожалуйста проверьте интернет соединение.")
         sys.exit(-1)
     except CriticalProxyError:
-        logger.critical("Нету надежных прокси серверов.")
+        print("Нету надежных прокси серверов.")
         sys.exit(-1)
 
 
-# # print configuration
-# print()
-# print('*' * 60)
-# print("configuration of this program\n")
-# print(f"\nDEBUG: {DEBUG}\nTIMEOUT: {TIMEOUT}\nGAP:{GAP}\nCOUNT_PAGE_FOR_ONE_TIME: {PERPAGE}\nDOWNLOAD IMAGES: {DOWNLOAD_IMAGES}")
-# print("Categories list:\n",categories)
-# print("Headers of table: %s\n\n" % HEADERS)
-# print('*' * 60)
 
-# # start
-# try:
-#     with open("data/d-barcodes.json", "r") as fp:
-#         list_group_id = defaultdict( list, json.load(fp))
-# except json.JSONDecodeError as jse:
-#         logger.critical("'JOSNDecodeError'Не удалось записать баркоды. Ошибка в записи файла")
-#         sys.exit(-1)
+# print configuration
+print()
+print('*' * 60)
+print("configuration of this program\n")
+print(f"\nDEBUG: {DEBUG}\nTIMEOUT: {TIMEOUT}\nGAP:{GAP}\nCOUNT_PAGE_FOR_ONE_TIME: {PERPAGE}\nDOWNLOAD IMAGES: {DOWNLOAD_IMAGES}")
+print("Categories list:\n",categories)
+print("Headers of table: %s\n\n" % HEADERS)
+print('*' * 60)
 
-# try:
-#     for categ in categories:
-#         parse(categ)
-# finally:
-#     try:
-#         with open("data/d-barcodes.json", "w") as fp:
-#             json.dump(list_group_id, fp)
-#     except json.JSONDecodeError as jse:
-#         logger.critical("'JOSNDecodeError'Не удалось записать баркоды. Ошибка в записи файла")
-#         sys.exit(-1)
-    
+# start
 
 
-for i in range(1, 100):
-    resp = get_response(api_url.format(categories[0],i))
-    print('Response status - %s' %resp.status_code)
-
+for categ in categories:
+    parse(categ)
 
 
 
