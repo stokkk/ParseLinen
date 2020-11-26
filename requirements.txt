@@ -8,6 +8,7 @@ cfscrape==2.1.1
 chardet==3.0.4
 colorama==0.4.4
 cryptography==3.2.1
+CurrencyConverter==0.14.4
 future==0.18.2
 googletrans==3.0.0
 h11==0.9.0
@@ -20,6 +21,7 @@ hyperframe==5.2.0
 idna==2.10
 isort==5.6.4
 lazy-object-proxy==1.4.3
+loguru==0.5.3
 mccabe==0.6.1
 pefile==2019.4.18
 pycparser==2.20
@@ -36,4 +38,5 @@ soupsieve==2.0.1
 toml==0.10.2
 torpy==1.1.3
 urllib3==1.25.10
+win32-setctime==1.0.3
 wrapt==1.12.1
