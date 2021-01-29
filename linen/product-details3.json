@@ -1,0 +1,1258 @@
+{
+   "product":{
+      "attributes":[
+         
+      ],
+      "alternativeVariants":[
+         {
+            "attributeValue":"95C",
+            "attributeBeautifiedValue":"95c",
+            "campaignId":494943,
+            "merchantId":176591,
+            "urlQuery":"?boutiqueId=494943&merchantId=176591&v=95c",
+            "listingId":"4f773045ee3d598dbfe2da3b8c0172da",
+            "itemNumber":17395581,
+            "barcode":"8699170172130",
+            "stock":1,
+            "quantity":1,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "sellingPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "originalPrice":{
+                  "text":"99,00 TL",
+                  "value":99
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"100B",
+            "attributeBeautifiedValue":"100b",
+            "campaignId":540641,
+            "merchantId":168527,
+            "urlQuery":"?boutiqueId=540641&merchantId=168527&v=100b",
+            "listingId":"597f878b6590a91b806714d892515b30",
+            "itemNumber":17395632,
+            "barcode":"8699170172086",
+            "stock":null,
+            "quantity":6,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "sellingPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "originalPrice":{
+                  "text":"85,96 TL",
+                  "value":85.96
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"100D",
+            "attributeBeautifiedValue":"100d",
+            "campaignId":494943,
+            "merchantId":176591,
+            "urlQuery":"?boutiqueId=494943&merchantId=176591&v=100d",
+            "listingId":"988457736684607af82a23e04359930a",
+            "itemNumber":17296930,
+            "barcode":"8699170187882",
+            "stock":2,
+            "quantity":2,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "sellingPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "originalPrice":{
+                  "text":"99,00 TL",
+                  "value":99
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"80DD",
+            "attributeBeautifiedValue":"80dd",
+            "campaignId":540641,
+            "merchantId":168527,
+            "urlQuery":"?boutiqueId=540641&merchantId=168527&v=80dd",
+            "listingId":"cf1936688712d2291e8835a2d3f68643",
+            "itemNumber":17395596,
+            "barcode":"8699170187844",
+            "stock":1,
+            "quantity":1,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "sellingPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "originalPrice":{
+                  "text":"85,96 TL",
+                  "value":85.96
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"85DD",
+            "attributeBeautifiedValue":"85dd",
+            "campaignId":540641,
+            "merchantId":168527,
+            "urlQuery":"?boutiqueId=540641&merchantId=168527&v=85dd",
+            "listingId":"0b3d778f4a263c41474ea9d41bae4046",
+            "itemNumber":17395571,
+            "barcode":"8699170187851",
+            "stock":2,
+            "quantity":2,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "sellingPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "originalPrice":{
+                  "text":"85,96 TL",
+                  "value":85.96
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"75DD",
+            "attributeBeautifiedValue":"75dd",
+            "campaignId":535625,
+            "merchantId":154725,
+            "urlQuery":"?boutiqueId=535625&merchantId=154725&v=75dd",
+            "listingId":"8cfe7c0cfe34c91cd5498e0f5ddb404a",
+            "itemNumber":17296933,
+            "barcode":"8699170187837",
+            "stock":3,
+            "quantity":3,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"57,75 TL",
+                  "value":57.75
+               },
+               "sellingPrice":{
+                  "text":"57,75 TL",
+                  "value":57.75
+               },
+               "originalPrice":{
+                  "text":"99,75 TL",
+                  "value":99.75
+               },
+               "currency":"TRY"
+            }
+         },
+         {
+            "attributeValue":"90DD",
+            "attributeBeautifiedValue":"90dd",
+            "campaignId":540641,
+            "merchantId":168527,
+            "urlQuery":"?boutiqueId=540641&merchantId=168527&v=90dd",
+            "listingId":"8d09cb78055b723021360dbc98cea67f",
+            "itemNumber":17296929,
+            "barcode":"8699170187868",
+            "stock":2,
+            "quantity":2,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "sellingPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "originalPrice":{
+                  "text":"85,96 TL",
+                  "value":85.96
+               },
+               "currency":"TRY"
+            }
+         }
+      ],
+      "variants":[
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75c",
+            "isWinner":false,
+            "listingId":"b5e502e658441d410bef74ad21fb3a49",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172093",
+            "itemNumber":17395565,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75d",
+            "isWinner":false,
+            "listingId":"b38a951f3d8784c4a0588034bfab6186",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172154",
+            "itemNumber":17395570,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80d",
+            "isWinner":false,
+            "listingId":"6b7064c873af2462740cbbac853f8ea7",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172161",
+            "itemNumber":17395573,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85b",
+            "isWinner":false,
+            "listingId":"699dda018abbf6251b014bb612fef0e1",
+            "stock":1,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172055",
+            "itemNumber":17395623,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85c",
+            "isWinner":false,
+            "listingId":"c9bfb3a65c08cf90dfdea8886d09544d",
+            "stock":0,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172116",
+            "itemNumber":17395609,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85d",
+            "isWinner":true,
+            "listingId":"a0c9be022127a9d7bcbdceaee38e22ab",
+            "stock":3,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172178",
+            "itemNumber":17395633,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90b",
+            "isWinner":false,
+            "listingId":"5292a9fb3ae32d52cb4acd9203c80344",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172062",
+            "itemNumber":17395635,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90c",
+            "isWinner":false,
+            "listingId":"84d1fee0246085a0db3e57776c389c2f",
+            "stock":0,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172123",
+            "itemNumber":17395580,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90d",
+            "isWinner":false,
+            "listingId":"f793328f8c38088b0174e1640a29fa04",
+            "stock":3,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172185",
+            "itemNumber":17395564,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95b",
+            "isWinner":false,
+            "listingId":"19b49d3c1d4fdad759b895cdf6c0c90c",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172079",
+            "itemNumber":17395582,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95d",
+            "isWinner":false,
+            "listingId":"16fd90656a4f88ebeb4b0e71e4874849",
+            "stock":2,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172192",
+            "itemNumber":17395608,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"100C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "sellingPrice":{
+                  "text":"89 TL",
+                  "value":89
+               },
+               "originalPrice":{
+                  "text":"89,00 TL",
+                  "value":89
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"100c",
+            "isWinner":false,
+            "listingId":"26b009d47e80352b51aa11b8adf343ee",
+            "stock":3,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"8699170172147",
+            "itemNumber":17395634,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         }
+      ],
+      "otherMerchants":[
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=535625&merchantId=154725",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               {
+                  "type":1,
+                  "text":"99 TL Üzeri 10 TL İndirim",
+                  "id":259995,
+                  "link":"/tum--urunler?promotions=259995"
+               }
+            ],
+            "isSellable":true,
+            "isBasketDiscount":false,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"57,75 TL",
+                  "value":57.75
+               },
+               "sellingPrice":{
+                  "text":"57,75 TL",
+                  "value":57.75
+               },
+               "originalPrice":{
+                  "text":"99,75 TL",
+                  "value":99.75
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":154725,
+               "name":"LEVENT KIZILTOPRAK ÇAMAŞIR",
+               "officialName":"LEVENT KIZILTOPRAK ÇAMAŞIR SAN.VE TİC.LTD.ŞTİ.",
+               "cityName":" İstanbul ",
+               "taxNumber":"6080515753",
+               "sellerScore":8.6,
+               "sellerScoreColor":"BAC82D"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 4 Aralık"
+            }
+         },
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=540641&merchantId=227948",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               {
+                  "type":1,
+                  "text":"69 TL Üzeri %20 İndirim",
+                  "id":254577,
+                  "link":"/tum--urunler?promotions=254577"
+               }
+            ],
+            "isSellable":true,
+            "isBasketDiscount":true,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"60 TL",
+                  "value":60
+               },
+               "sellingPrice":{
+                  "text":"75 TL",
+                  "value":75
+               },
+               "originalPrice":{
+                  "text":"150,00 TL",
+                  "value":150
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":227948,
+               "name":"AKY İÇ MİMARLIK",
+               "officialName":"YENİ KURULACAK AKY İÇ MİMARLIK TEKSTİL ÜR.SAN.TİC.L.Ş.",
+               "cityName":" Mersin ",
+               "taxNumber":"0430864120",
+               "sellerScore":8.8,
+               "sellerScoreColor":"BAC82D"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 3 Aralık"
+            }
+         },
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=494943&merchantId=176591",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               
+            ],
+            "isSellable":true,
+            "isBasketDiscount":false,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "sellingPrice":{
+                  "text":"69 TL",
+                  "value":69
+               },
+               "originalPrice":{
+                  "text":"99,00 TL",
+                  "value":99
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":176591,
+               "name":"Ayt Ev Tekstili",
+               "officialName":"AYKUT YILDIZ EV TEKSTİLİ DEKORATİF ÜR. TİCARET VE SAN.L.Ş.",
+               "cityName":" Mersin ",
+               "taxNumber":"1220769919",
+               "sellerScore":8.9,
+               "sellerScoreColor":"BAC82D"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 4 Aralık"
+            }
+         },
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=540641&merchantId=168527",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               
+            ],
+            "isSellable":true,
+            "isBasketDiscount":false,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "sellingPrice":{
+                  "text":"71,92 TL",
+                  "value":71.92
+               },
+               "originalPrice":{
+                  "text":"85,96 TL",
+                  "value":85.96
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":168527,
+               "name":"JENİCA",
+               "officialName":"FATİH YÜREGİLLİ TEKSTİL MÜCEVHERAT TİCARET VE SAN.L.Ş.",
+               "cityName":" Kayseri ",
+               "taxNumber":"3851257669",
+               "sellerScore":8.9,
+               "sellerScoreColor":"BAC82D"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 4 Aralık"
+            }
+         },
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=535625&merchantId=131887",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               
+            ],
+            "isSellable":true,
+            "isBasketDiscount":false,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"79,95 TL",
+                  "value":79.95
+               },
+               "sellingPrice":{
+                  "text":"79,95 TL",
+                  "value":79.95
+               },
+               "originalPrice":{
+                  "text":"99,95 TL",
+                  "value":99.95
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":131887,
+               "name":"öz giyim iskenderun",
+               "officialName":"METİN ÖZ",
+               "cityName":" Hatay ",
+               "taxNumber":"",
+               "sellerScore":8.6,
+               "sellerScoreColor":"BAC82D"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 4 Aralık"
+            }
+         },
+         {
+            "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=523910&merchantId=125365",
+            "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+            "promotions":[
+               
+            ],
+            "isSellable":true,
+            "isBasketDiscount":false,
+            "hasStock":true,
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"90 TL",
+                  "value":90
+               },
+               "sellingPrice":{
+                  "text":"90 TL",
+                  "value":90
+               },
+               "originalPrice":{
+                  "text":"119,00 TL",
+                  "value":119
+               },
+               "currency":"TRY"
+            },
+            "merchant":{
+               "id":125365,
+               "name":"KARACAN EV TEKSTİLİ",
+               "officialName":"SALİH KARACAN",
+               "cityName":" Antalya ",
+               "taxNumber":"",
+               "sellerScore":9.6,
+               "sellerScoreColor":"0BC15C"
+            },
+            "isFreeCargo":false,
+            "deliveryInformation":{
+               "isRushDelivery":false,
+               "deliveryDate":"23 Kasım - 3 Aralık"
+            }
+         }
+      ],
+      "campaign":{
+         "id":523910,
+         "name":"İç Giyim",
+         "startDate":"2020-08-10T17:16:30",
+         "endDate":"2026-01-01T13:15:18",
+         "isMultipleSupplied":false,
+         "stockTypeId":7,
+         "url":"/ic-giyim/butikdetay/523910",
+         "showTimer":false
+      },
+      "category":{
+         "id":63,
+         "name":"Sütyen",
+         "hierarchy":"Giyim/İç Giyim/Sütyen",
+         "refundable":true,
+         "beautifiedName":"sutyen"
+      },
+      "brand":{
+         "isVirtual":true,
+         "beautifiedName":"pierre-cardin",
+         "id":122,
+         "name":"Pierre Cardin",
+         "path":"/pierre-cardin"
+      },
+      "color":"Siyah",
+      "showVariants":true,
+      "showSexualContent":true,
+      "metaBrand":{
+         "id":121,
+         "name":"Pierre Cardin",
+         "beautifiedName":"",
+         "isVirtual":false,
+         "path":""
+      },
+      "landings":[
+         
+      ],
+      "id":4395991,
+      "productCode":"7021",
+      "name":"7021 D Cup Diandra Balenli Toparlayıcı Sütyen",
+      "nameWithProductCode":"7021 D Cup Diandra Balenli Toparlayıcı Sütyen",
+      "description":"\u003cul>\u003cli>\u003cdiv>Pierre cardin dıandra toparlayıcı sütyen-D\n\t\u003cbr />\u003c/div>\u003c/li>\u003cli>Bu butikte indirim kuponları/kodları geçerli değildir.\u003c/li>\u003cli>Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.\u003c/li>\u003cli>Kampanya fiyatından satılmak üzere 5 adetten az stok bulunmaktadır.\u003c/li>\u003cli>İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.\u003c/li>\u003c/ul>",
+      "contentDescriptions":[
+         {
+            "description":"Pierre cardin dıandra toparlayıcı sütyen-D",
+            "bold":false
+         },
+         {
+            "description":"Bu butikte indirim kuponları/kodları geçerli değildir.",
+            "bold":false
+         },
+         {
+            "description":"Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.",
+            "bold":false
+         },
+         {
+            "description":"Kampanya fiyatından satılmak üzere 5 adetten az stok bulunmaktadır.",
+            "bold":false
+         },
+         {
+            "description":"İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.",
+            "bold":false
+         }
+      ],
+      "productGroupId":3654447,
+      "tax":8,
+      "businessUnit":"İç Giyim",
+      "gender":{
+         "name":"Kadın",
+         "id":1
+      },
+      "url":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991?boutiqueId=523910&merchantId=112914",
+      "images":[
+         "/assets/product/media/images/20191106/21/548796/17395565/1/1_org_zoom.jpg",
+         "/assets/product/media/images/20191106/21/548796/17395565/2/2_org_zoom.jpg"
+      ],
+      "isSellable":true,
+      "isBasketDiscount":false,
+      "hasStock":true,
+      "price":{
+         "profitMargin":0,
+         "discountedPrice":{
+            "text":"89 TL",
+            "value":89
+         },
+         "sellingPrice":{
+            "text":"89 TL",
+            "value":89
+         },
+         "originalPrice":{
+            "text":"89,00 TL",
+            "value":89
+         },
+         "currency":"TRY"
+      },
+      "isFreeCargo":false,
+      "promotions":[
+         
+      ],
+      "merchant":{
+         "id":112914,
+         "name":"Odul Shop",
+         "officialName":"HAKAN KIVRAK",
+         "cityName":" Antalya ",
+         "taxNumber":"",
+         "sellerScore":7.9,
+         "sellerScoreColor":"FFAC25",
+         "sellerLink":"/magaza/odul-shop-m-112914"
+      },
+      "deliveryInformation":{
+         "isRushDelivery":false,
+         "deliveryDate":"23 Kasım - 3 Aralık"
+      },
+      "isMarketplace":true,
+      "productStamps":[
+         
+      ],
+      "hasHtmlContent":false,
+      "favoriteCount":4640,
+      "uxLayout":"Fashion",
+      "isDigitalGood":false,
+      "isRunningOut":true,
+      "scheduledDelivery":false,
+      "ratingScore":{
+         "averageRating":4.09,
+         "totalRatingCount":747,
+         "totalCommentCount":475
+      },
+      "showStarredAttributes":false,
+      "reviewsUrl":"/pierre-cardin/7021-d-cup-diandra-balenli-toparlayici-sutyen-p-4395991/yorumlar",
+      "sellerQuestionEnabled":true,
+      "breadcrumb":{
+         "items":[
+            {
+               "name":"Kadın",
+               "path":"/kadin",
+               "type":"GENDER"
+            },
+            {
+               "name":"Giyim",
+               "path":"/kadin+giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"İç Giyim",
+               "path":"/kadin+ic-giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Sütyen",
+               "path":"/kadin+sutyen",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Pierre Cardin Sütyen",
+               "path":"/kadin+sutyen/pierre-cardin",
+               "type":"BRAND"
+            }
+         ]
+      }
+   },
+   "variantFromUrl":"75c",
+   "htmlContent":null,
+   "user":{
+      "loggedIn":true,
+      "id":38720936,
+      "isBuyer":false
+   },
+   "configuration":{
+      "htmlContentCssUrl":"https://cdn.dsmcdn.com/mweb/production/main.aab850b0c0ee19a8dc1e.css",
+      "htmlContentJsUrl":"https://cdn.dsmcdn.com/mweb/production/main.6a9f43734fae5b089c3d.js",
+      "storefrontId":1,
+      "culture":"tr-TR",
+      "cdnUrl":"https://cdn.dsmcdn.com",
+      "claimInfoText":"15 gün içinde ücretsiz iade.",
+      "questionsAndAnswersEnabled":true,
+      "ratingReviewEnabled":true,
+      "ratingReviewLikesEnabled":true,
+      "newRatingSummaryEnabled":true,
+      "redirectReviewsPageEnabled":true,
+      "languageCode":"tr",
+      "sizeCharts":[
+         [
+            "Güneş Gözlüğü",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "İmaj Gözlükleri",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "Saat",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/saatler_beden_tablosu.jpg",
+            "Saat Beden Kılavuzu"
+         ]
+      ],
+      "enhancedEcommerceEnabled":true,
+      "addReviewEnabled":false,
+      "reviewReportAbuseEnabled":true,
+      "showImageOnProductCommentsEnabled":true,
+      "crossProductsTitle":"Bu Ürünü Alanlar Bunları da Aldı",
+      "crossProductsEnabled":true,
+      "recommendationEnabled":true,
+      "productGroupEnabled":true,
+      "htmlContentEnabled":true,
+      "productAttributesEnabled":true,
+      "publishCriteriaEnabled":true,
+      "sellerAreaEnabled":true,
+      "sellerPointLowLimit":8,
+      "sizeChartUrl":"https://cdn.dsmcdn.com/Assets/frontend-web-sizechart/tr1.html",
+      "productDetailMetaDescription":"Trendyol.com sayesinde {0} ürününe çok özel indirimlerle sahip olabilecek ve alışveriş alışkanlıklarınızı değiştireceksiniz.",
+      "schemaJsonEnabled":true,
+      "siteAddress":"https://www.trendyol.com",
+      "notifyMeEnabled":true,
+      "notifyMeCount":10,
+      "accountGwFavoritesEnabled":true,
+      "browsingGwUrl":"https://api.trendyol.com/webproductgw",
+      "recommendationAbTestValue":"A_0-0,B_0_0,C_1-100",
+      "lastProductCountAbTestValue":"A_0-0,B_0-100",
+      "recoCardAbTestValue":"A_0-100,B_0-0",
+      "abTestingCookieName":"WebAbTesting",
+      "clientSideReviewsEnabled":false,
+      "clientSideHtmlContentEnabled":false,
+      "alternativeVariantsEnabled":true,
+      "relatedCategoryEnabled":true,
+      "relatedCategoryAbTestVariant":"C",
+      "relatedCategoryAbTestValue":"A_0-0,B_0-0,C_0-0,D_1-100,E_0-0",
+      "relatedCategoryTitleTooltipThreshold":43,
+      "relatedCategoryCountLimit":5,
+      "relatedCategoryImageVirtualBrandIds":[
+         33,
+         102347,
+         39,
+         141,
+         53,
+         981,
+         254,
+         204,
+         466,
+         155,
+         296,
+         586,
+         37,
+         131,
+         971,
+         178,
+         333,
+         129,
+         136,
+         49,
+         328,
+         179,
+         38,
+         101446,
+         568,
+         138,
+         859,
+         289,
+         754,
+         43,
+         128,
+         44,
+         618,
+         569,
+         535,
+         193,
+         660,
+         160,
+         303,
+         347,
+         1265,
+         658,
+         103029,
+         104699,
+         300,
+         103500,
+         103124,
+         101476,
+         103187,
+         104189,
+         208
+      ],
+      "relatedCategoryVirtualBrandImagePath":"assets/banner/2018/mobileCDN/brandFollow",
+      "defaultBrandCategoryCombinationImageUrl":"Assets/related-category-default-image.png",
+      "legalRequirementCacheDuration":31556926,
+      "digitalGoodsDeliveryText":"1 saat içinde E-mail olarak gönderilecektir.",
+      "recoCrossCustomStampsEnabled":true,
+      "layoutsToShowOpenSizeChartButton":"Fashion",
+      "productDetailImprovedBreadcrumbEnabled":true,
+      "sellerShippingEnabled":false,
+      "productDetailReportAbuseEnabled":true,
+      "productDetailReportAbuseItems":"[{\"id\": 0,\"value\": \"Haksız fiyatlandırma fiyatı hatalı.\"},{\"id\": 1,\"value\": \"Ürünün görseli hatalı.\"},{\"id\": 2,\"value\": \"Ürün ismi ya da bilgileri eksik ya da hatalı.\"}]",
+      "scheduledDeliveryWarningMessage":"Seçtiğiniz adrese şu anda randevulu teslimat hizmeti bulunmamaktadır. Ürünleriniz kargo ile gönderilecektir.",
+      "newCarouselEnabled":true,
+      "installmentStampAmountText":"9 TAKSİT",
+      "starredAttributesLimit":4,
+      "sellerStoreLinkEnabled":true,
+      "featuredCardFavButtonEnabled":true,
+      "newVariantStyleTest":1,
+      "openReviewModalEnabled":false,
+      "installmentCountToDisplay":9,
+      "installmentInformationAbTest":0,
+      "currencySymbol":"TL",
+      "brandNameAbTest":1,
+      "newSearchEnabled":false
+   }
+}

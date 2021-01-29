@@ -1,0 +1,1413 @@
+{
+   "isSuccess":true,
+   "statusCode":200,
+   "error":null,
+   "result":{
+      "slpName":"",
+      "products":[
+         {
+            "id":2911018,
+            "name":"Kadın Toparlayıcı  Siyah Sütyen 1680",
+            "images":[
+               "/Assets/ProductImages/oa/59/2911018/2/8695684034995_1_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2911018/2/8695684034995_3_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2911018/2/8695684034995_2_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2911018/2/8695684035046_2_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2911018/2/8695684035046_3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":311,
+               "name":"Yeni İnci"
+            },
+            "imageAlt":"Yeni İnci Kadın Toparlayıcı  Siyah Sütyen 1680",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"4_Gri",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.360103626943006,
+               "totalCount":386
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/yeni-inci/kadin-toparlayici-siyah-sutyen-1680-p-2911018?boutiqueId=320335&merchantId=105922",
+            "merchantId":105922,
+            "campaignId":320335,
+            "price":{
+               "sellingPrice":54.5,
+               "originalPrice":87,
+               "manipulatedOriginalPrice":54.5,
+               "discountedPrice":54.5,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyimin Vazgeçilmezleri - Kadın & Erkek",
+            "listingId":"46fd28dad55cf3ffac5900b1d05ac889",
+            "winnerVariant":"90B",
+            "itemNumber":1485162,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":1154885,
+            "name":"Kadın  Silikon Ten Sütyen UM2001",
+            "images":[
+               "/ty2/product/media/images/20200406/11/1193500/10636793/1/1_org_zoom.jpg",
+               "/ty2/product/media/images/20200406/11/1193500/10636793/2/2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":15000,
+               "name":"THERMOFORM"
+            },
+            "imageAlt":"THERMOFORM Kadın  Silikon Ten Sütyen UM2001",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"2_Bej",
+            "businessUnit":"Outdoor",
+            "ratingScore":{
+               "averageRating":3.886543535620053,
+               "totalCount":379
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/thermoform/kadin-silikon-ten-sutyen-um2001-p-1154885?boutiqueId=324097&merchantId=104901",
+            "merchantId":104901,
+            "campaignId":324097,
+            "price":{
+               "sellingPrice":39.9,
+               "originalPrice":69.9,
+               "manipulatedOriginalPrice":39.9,
+               "discountedPrice":39.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":false,
+            "margin":0,
+            "campaignName":"Karma İç Giyim",
+            "listingId":"82114d762a82b5a8c679f1dc072398b3",
+            "winnerVariant":"A Cup",
+            "itemNumber":10636791,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":6817506,
+            "name":"Natalie Balenli Sütyen 90d Beyaz 7023",
+            "images":[
+               "/ty8/product/media/images/20200731/9/6457217/21613350/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Natalie Balenli Sütyen 90d Beyaz 7023",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"3_Beyaz",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.32171581769437,
+               "totalCount":373
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/natalie-balenli-sutyen-90d-beyaz-7023-p-6817506?boutiqueId=531790&merchantId=168527",
+            "merchantId":168527,
+            "campaignId":531790,
+            "price":{
+               "sellingPrice":74.02,
+               "originalPrice":90.47,
+               "manipulatedOriginalPrice":74.02,
+               "discountedPrice":74.02,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"987944b8a19abec63b6750982a8b8bbf",
+            "winnerVariant":"80C",
+            "itemNumber":21613343,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":28574959,
+            "name":"Kadın Bordo Balenli Destekli Sütyen Takım",
+            "images":[
+               "/assets/product/media/images/20191106/21/548796/51823896/1/1_org_zoom.jpg",
+               "/assets/product/media/images/20191106/21/548796/51823896/2/2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Bordo Balenli Destekli Sütyen Takım",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"19_Bordo",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.749326145552561,
+               "totalCount":371
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-bordo-balenli-destekli-sutyen-takim-p-28574959?boutiqueId=530211&merchantId=237551",
+            "merchantId":237551,
+            "campaignId":530211,
+            "price":{
+               "sellingPrice":134.9,
+               "originalPrice":199,
+               "manipulatedOriginalPrice":134.9,
+               "discountedPrice":134.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"Ev Giyim",
+            "listingId":"f76de9686af8ae6c1acc9e9e99b11532",
+            "winnerVariant":"90B",
+            "itemNumber":51824146,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":242603,
+            "name":"Kadın Siyah Micro Destekli Sütyen",
+            "images":[
+               "/assets/product/media/images/20191125/14/748901/7021490/1/1_org_zoom.jpg",
+               "/assets/product/media/images/20191125/14/748901/7021490/2/2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":10919,
+               "name":"ELİTOL"
+            },
+            "imageAlt":"ELİTOL Kadın Siyah Micro Destekli Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"Kadın B",
+            "ratingScore":{
+               "averageRating":3.8746594005449593,
+               "totalCount":367
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/elitol/kadin-siyah-micro-destekli-sutyen-p-242603?boutiqueId=450993&merchantId=2938",
+            "merchantId":2938,
+            "campaignId":450993,
+            "price":{
+               "sellingPrice":32.99,
+               "originalPrice":82.48,
+               "manipulatedOriginalPrice":32.99,
+               "discountedPrice":32.99,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":false,
+            "margin":0,
+            "campaignName":"Elitol Premium & Strawberry - Pijama & İç Giyim",
+            "listingId":"64b7cc9213ef3a81a51a343aa6275711",
+            "winnerVariant":"80",
+            "itemNumber":7021490,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":1123355,
+            "name":"Ten Kadın Lotus Premium  Sütyen PLLOPRSU15SK",
+            "images":[
+               "/Assets/ProductImages/oa/72/1123355/2/6300250217734_1_org_zoom.jpg",
+               "/Assets/ProductImages/oa/72/1123355/2/6300250217734_2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":8605,
+               "name":"Penti"
+            },
+            "imageAlt":"Penti Ten Kadın Lotus Premium  Sütyen PLLOPRSU15SK",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"3_Beyaz",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.661157024793388,
+               "totalCount":363
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/penti/ten-kadin-lotus-premium-sutyen-plloprsu15sk-p-1123355?boutiqueId=498246&merchantId=4442",
+            "merchantId":4442,
+            "campaignId":498246,
+            "price":{
+               "sellingPrice":104.97,
+               "originalPrice":149.95,
+               "manipulatedOriginalPrice":149.95,
+               "discountedPrice":104.97,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":false,
+            "margin":0,
+            "campaignName":"Penti - Ev Giyim & İç Giyim & Mayo",
+            "listingId":"c2702c9217d134955b5610ae9393e000",
+            "winnerVariant":"75C",
+            "itemNumber":7649115,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":31495842,
+            "name":"Kadın Mor Dantelli Dolgusuz Bralet Sütyen Takım 301",
+            "images":[
+               "/ty5/product/media/images/20200627/16/3582716/56668422/1/1_org_zoom.jpg",
+               "/ty6/product/media/images/20200627/16/3582716/56668422/2/2_org_zoom.jpg",
+               "/ty5/product/media/images/20200627/16/3582716/56668422/3/3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":8173,
+               "name":"Cansoy"
+            },
+            "imageAlt":"Cansoy Kadın Mor Dantelli Dolgusuz Bralet Sütyen Takım 301",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"11_Mor",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.392265193370166,
+               "totalCount":362
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/cansoy/kadin-mor-dantelli-dolgusuz-bralet-sutyen-takim-301-p-31495842?boutiqueId=531790&merchantId=207439",
+            "merchantId":207439,
+            "campaignId":531790,
+            "price":{
+               "sellingPrice":42.9,
+               "originalPrice":56,
+               "manipulatedOriginalPrice":42.9,
+               "discountedPrice":42.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"9695100b1c1db14385a19b37e9357368",
+            "winnerVariant":"85",
+            "itemNumber":56668421,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":225121,
+            "name":"Kadın Siyah Balenli Desteksiz Sütyen",
+            "images":[
+               "/ty22/product/media/images/20201111/19/25124393/7706957/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Siyah Balenli Desteksiz Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.113259668508287,
+               "totalCount":362
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-siyah-balenli-desteksiz-sutyen-p-225121?boutiqueId=390392&merchantId=126926",
+            "merchantId":126926,
+            "campaignId":390392,
+            "price":{
+               "sellingPrice":43,
+               "originalPrice":77.99,
+               "manipulatedOriginalPrice":43,
+               "discountedPrice":43,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":217774,
+                  "name":"3 Adet ve Üzeri 10 TL İndirim",
+                  "shortName":"Çok Al Az Öde"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"536918e185fc96e65c296cd7a5a87693",
+            "winnerVariant":"75B",
+            "itemNumber":7706956,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":6508153,
+            "name":"Kadın Pemilo da Le Jardin 2 Beden Büyüten Destekli Dolgulu Sihirli Siyah Sütyen  7034",
+            "images":[
+               "/Assets/ProductImages/oa/57/6508153/1/PE-5111-7034_1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":2825,
+               "name":"Le Jardin"
+            },
+            "imageAlt":"Le Jardin Kadın Pemilo da Le Jardin 2 Beden Büyüten Destekli Dolgulu Sihirli Siyah Sütyen  7034",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"20_Ekru",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.35933147632312,
+               "totalCount":359
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/le-jardin/kadin-pemilo-da-le-jardin-2-beden-buyuten-destekli-dolgulu-sihirli-siyah-sutyen-7034-p-6508153?boutiqueId=535625&merchantId=213002",
+            "merchantId":213002,
+            "campaignId":535625,
+            "price":{
+               "sellingPrice":57.5,
+               "originalPrice":70,
+               "manipulatedOriginalPrice":57.5,
+               "discountedPrice":57.5,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"c86443b2fd0ddff456b4d1319fd12a28",
+            "winnerVariant":"85B",
+            "itemNumber":20970818,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":31271625,
+            "name":"Kadın Pudra Siena Balenli Desteksiz Straplez Dantelli Tek Sütyen",
+            "images":[
+               "/assets/product/media/images/20191106/21/548796/56222574/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Pudra Siena Balenli Desteksiz Straplez Dantelli Tek Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"12_Pembe",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.696531791907514,
+               "totalCount":346
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-pudra-siena-balenli-desteksiz-straplez-dantelli-tek-sutyen-p-31271625?boutiqueId=494943&merchantId=126926",
+            "merchantId":126926,
+            "campaignId":494943,
+            "price":{
+               "sellingPrice":52,
+               "originalPrice":99,
+               "manipulatedOriginalPrice":52,
+               "discountedPrice":52,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":237128,
+                  "name":"2 Adet ve Üzeri 10 TL İndirim",
+                  "shortName":"KAÇMAZ FIRSAT"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"c40de66b0f4171923c145d1ec4d4bc3d",
+            "winnerVariant":"90B",
+            "itemNumber":56222572,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":32736927,
+            "name":"Kadın Siyah Çapraz Desteksiz Sütyen",
+            "images":[
+               "/assets/product/media/images/20191113/15/604700/58913192/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":198648,
+               "name":"Elif İç Giyim"
+            },
+            "imageAlt":"Elif İç Giyim Kadın Siyah Çapraz Desteksiz Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.262536873156342,
+               "totalCount":339
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/elif-ic-giyim/kadin-siyah-capraz-desteksiz-sutyen-p-32736927?boutiqueId=390392&merchantId=114813",
+            "merchantId":114813,
+            "campaignId":390392,
+            "price":{
+               "sellingPrice":49.9,
+               "originalPrice":64.9,
+               "manipulatedOriginalPrice":49.9,
+               "discountedPrice":49.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"0614437632496cc1284bd43ba5dd5b9d",
+            "winnerVariant":"95B",
+            "itemNumber":58914714,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":2688837,
+            "name":"Kadın Ten Afrodıt Toparlayıcı Cup Dantelli Tek Sütyen",
+            "images":[
+               "/ty24/product/media/images/20201114/15/26310201/13306582/1/1_org_zoom.jpg",
+               "/ty23/product/media/images/20201114/15/26310201/13306582/2/2_org_zoom.jpg",
+               "/ty23/product/media/images/20201114/15/26310201/13306582/3/3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":3357,
+               "name":"Dagi"
+            },
+            "imageAlt":"Dagi Kadın Ten Afrodıt Toparlayıcı Cup Dantelli Tek Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"2_Bej",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.4183976261127595,
+               "totalCount":337
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/dagi/kadin-ten-afrodit-toparlayici-cup-dantelli-tek-sutyen-p-2688837?boutiqueId=308088&merchantId=1607",
+            "merchantId":1607,
+            "campaignId":308088,
+            "price":{
+               "sellingPrice":77.95,
+               "originalPrice":129.95,
+               "manipulatedOriginalPrice":129.95,
+               "discountedPrice":77.95,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"Çeyiz Bohçası - Saten & Dantel",
+            "listingId":"8d3e3fa044a4581d1079302177f4d937",
+            "winnerVariant":"80B",
+            "itemNumber":13306581,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":376483,
+            "name":"Kadın Ten Rengi Balenli Straplez Şeffaf Askılı Destekli Sütyen",
+            "images":[
+               "/assets/product/images/17215/7481830/1/1_org_zoom.jpeg",
+               "/assets/product/images/17215/7481830/2/2_org_zoom.jpeg",
+               "/assets/product/images/17215/7481830/3/3_org_zoom.jpeg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Ten Rengi Balenli Straplez Şeffaf Askılı Destekli Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"2_Bej",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.121661721068249,
+               "totalCount":337
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-ten-rengi-balenli-straplez-seffaf-askili-destekli-sutyen-p-376483?boutiqueId=390392&merchantId=126926",
+            "merchantId":126926,
+            "campaignId":390392,
+            "price":{
+               "sellingPrice":49.99,
+               "originalPrice":85.99,
+               "manipulatedOriginalPrice":49.99,
+               "discountedPrice":49.99,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":237128,
+                  "name":"2 Adet ve Üzeri 10 TL İndirim",
+                  "shortName":"Çok Al Az Öde"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"6677722d09a84b698fae4fa922bb7b99",
+            "winnerVariant":"90B",
+            "itemNumber":7481833,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":6817508,
+            "name":"Kadın Natalie Balenli Toparlayıcı Siyah Sütyen 7023",
+            "images":[
+               "/Assets/ProductImages/oa/57/6817508/1/8699170174196_1_org_zoom.jpg",
+               "/Assets/ProductImages/oa/57/6817508/1/8699170174196_2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Natalie Balenli Toparlayıcı Siyah Sütyen 7023",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.363095238095238,
+               "totalCount":336
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-natalie-balenli-toparlayici-siyah-sutyen-7023-p-6817508?boutiqueId=531790&merchantId=168527",
+            "merchantId":168527,
+            "campaignId":531790,
+            "price":{
+               "sellingPrice":74.02,
+               "originalPrice":90.47,
+               "manipulatedOriginalPrice":74.02,
+               "discountedPrice":74.02,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"78fa3137cf99a79d68c2c23ee3e15a12",
+            "winnerVariant":"95B",
+            "itemNumber":21613387,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":34372508,
+            "name":"Kadın Ten Basic Toparlayıcı Kaplı Balenli Sütyen 3613",
+            "images":[
+               "/assets/product/media/images/20191231/9/1874675/61512487/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":7937,
+               "name":"NBB"
+            },
+            "imageAlt":"NBB Kadın Ten Basic Toparlayıcı Kaplı Balenli Sütyen 3613",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"2_Bej",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.313432835820896,
+               "totalCount":335
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/nbb/kadin-ten-basic-toparlayici-kapli-balenli-sutyen-3613-p-34372508?boutiqueId=494943&merchantId=126926",
+            "merchantId":126926,
+            "campaignId":494943,
+            "price":{
+               "sellingPrice":41,
+               "originalPrice":99,
+               "manipulatedOriginalPrice":41,
+               "discountedPrice":41,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"fd63491732c902be37006e99376013eb",
+            "winnerVariant":"75C",
+            "itemNumber":61529176,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":40420140,
+            "name":"Ten Penye Toparlayıcı Sütyen",
+            "images":[
+               "/ty3/product/media/images/20200520/21/1565041/71595736/1/1_org_zoom.jpg",
+               "/ty3/product/media/images/20200520/21/1565041/71595736/2/2_org_zoom.jpg",
+               "/ty3/product/media/images/20200520/21/1565041/71595736/3/3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":7937,
+               "name":"NBB"
+            },
+            "imageAlt":"NBB Ten Penye Toparlayıcı Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"2_Bej",
+            "businessUnit":"Kadın B",
+            "ratingScore":{
+               "averageRating":3.9096385542168677,
+               "totalCount":332
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/nbb/ten-penye-toparlayici-sutyen-p-40420140?boutiqueId=495593&merchantId=123509",
+            "merchantId":123509,
+            "campaignId":495593,
+            "price":{
+               "sellingPrice":24.8,
+               "originalPrice":59.9,
+               "manipulatedOriginalPrice":24.8,
+               "discountedPrice":24.8,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":false,
+            "margin":0,
+            "campaignName":"Kadın Tekstil",
+            "listingId":"93d23542a97dc1bf22848fb43b398346",
+            "winnerVariant":"75",
+            "itemNumber":71595736,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":26665059,
+            "name":"Kadın Siyah Rosa Minimizer Toparlayıcı Sütyen",
+            "images":[
+               "/ty22/product/media/images/20201110/17/24811407/45583746/1/1_org_zoom.jpg",
+               "/ty22/product/media/images/20201110/17/24811407/45583746/2/2_org_zoom.jpg",
+               "/ty21/product/media/images/20201110/17/24811407/45583746/3/3_org_zoom.jpg",
+               "/ty21/product/media/images/20201110/17/24811407/45583746/4/4_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":419,
+               "name":"SUWEN"
+            },
+            "imageAlt":"SUWEN Kadın Siyah Rosa Minimizer Toparlayıcı Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.669871794871795,
+               "totalCount":312
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/suwen/kadin-siyah-rosa-minimizer-toparlayici-sutyen-p-26665059?boutiqueId=540164&merchantId=367",
+            "merchantId":367,
+            "campaignId":540164,
+            "price":{
+               "sellingPrice":219.9,
+               "originalPrice":219.9,
+               "manipulatedOriginalPrice":219.9,
+               "discountedPrice":219.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":223914,
+                  "name":"3 Al 2 Öde",
+                  "shortName":"KAÇMAZ FIRSAT"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"Suwen - Ev Giyim & İç Giyim - 3 Al 2 Öde",
+            "listingId":"cfdd4ef2e9020cee3c204a4d336251ad",
+            "winnerVariant":"75C",
+            "itemNumber":45584346,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":42528750,
+            "name":"New Malaga Bralet",
+            "images":[
+               "/ty6/product/media/images/20200629/17/3629287/75536521/0/0_org_zoom.jpg",
+               "/ty5/product/media/images/20200629/17/3629287/75536521/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":721601,
+               "name":"HAREM SUARE"
+            },
+            "imageAlt":"HAREM SUARE New Malaga Bralet",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"16_Turuncu",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.5364238410596025,
+               "totalCount":302
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/harem-suare/new-malaga-bralet-p-42528750?boutiqueId=494943&merchantId=114285",
+            "merchantId":114285,
+            "campaignId":494943,
+            "price":{
+               "sellingPrice":37.9,
+               "originalPrice":47.9,
+               "manipulatedOriginalPrice":37.9,
+               "discountedPrice":37.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"e695ea64669f9fae77887423bc53490d",
+            "winnerVariant":"S",
+            "itemNumber":75542144,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":37181602,
+            "name":"Ipli Dantelli Hafif Destekli Bralet Takım",
+            "images":[
+               "/ty6/product/media/images/20200627/16/3582694/66114448/1/1_org_zoom.jpg",
+               "/ty5/product/media/images/20200627/16/3582694/66114448/2/2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":8173,
+               "name":"Cansoy"
+            },
+            "imageAlt":"Cansoy Ipli Dantelli Hafif Destekli Bralet Takım",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"3_Beyaz",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.37248322147651,
+               "totalCount":298
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/cansoy/ipli-dantelli-hafif-destekli-bralet-takim-p-37181602?boutiqueId=523910&merchantId=152330",
+            "merchantId":152330,
+            "campaignId":523910,
+            "price":{
+               "sellingPrice":55,
+               "originalPrice":69.99,
+               "manipulatedOriginalPrice":55,
+               "discountedPrice":55,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":257989,
+                  "name":"70 TL Üzeri %10 İndirim",
+                  "shortName":"Çok Al Az Öde"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"c4bcec9a1837099aaa03c1756c60ae5c",
+            "winnerVariant":"80",
+            "itemNumber":66486885,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":2803037,
+            "name":"Kadın Toparlayıcı Siyah Sütyen 1680",
+            "images":[
+               "/Assets/ProductImages/oa/59/2803037/2/8695684035084_1_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2803037/2/8695684035084_2_org_zoom.jpg",
+               "/Assets/ProductImages/oa/59/2803037/2/8695684035084_3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":311,
+               "name":"Yeni İnci"
+            },
+            "imageAlt":"Yeni İnci Kadın Toparlayıcı Siyah Sütyen 1680",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"4_Gri",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.439024390243903,
+               "totalCount":287
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/yeni-inci/kadin-toparlayici-siyah-sutyen-1680-p-2803037?boutiqueId=320335&merchantId=105922",
+            "merchantId":105922,
+            "campaignId":320335,
+            "price":{
+               "sellingPrice":54.5,
+               "originalPrice":87,
+               "manipulatedOriginalPrice":54.5,
+               "discountedPrice":54.5,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyimin Vazgeçilmezleri - Kadın & Erkek",
+            "listingId":"7028dcd9e2828d4c7c9efff75ca066af",
+            "winnerVariant":"80B",
+            "itemNumber":1485160,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":43140414,
+            "name":"New Murcia Bralet",
+            "images":[
+               "/ty6/product/media/images/20200710/19/4275360/76562017/0/0_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":721601,
+               "name":"HAREM SUARE"
+            },
+            "imageAlt":"HAREM SUARE New Murcia Bralet",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"19_Bordo",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.511029411764706,
+               "totalCount":272
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/harem-suare/new-murcia-bralet-p-43140414?boutiqueId=494943&merchantId=114285",
+            "merchantId":114285,
+            "campaignId":494943,
+            "price":{
+               "sellingPrice":39.9,
+               "originalPrice":47.9,
+               "manipulatedOriginalPrice":39.9,
+               "discountedPrice":39.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"2af0d5dbe1b81c63932c07228ae2611e",
+            "winnerVariant":"M",
+            "itemNumber":76571908,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":31271620,
+            "name":"Kadın Pudra Pisa Balenli Destekli Straplez Dantelli Tek Sütyen",
+            "images":[
+               "/assets/product/media/images/20191106/21/548796/56222554/1/1_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":121,
+               "name":"Pierre Cardin"
+            },
+            "imageAlt":"Pierre Cardin Kadın Pudra Pisa Balenli Destekli Straplez Dantelli Tek Sütyen",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"12_Pembe",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.669144981412639,
+               "totalCount":269
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/pierre-cardin/kadin-pudra-pisa-balenli-destekli-straplez-dantelli-tek-sutyen-p-31271620?boutiqueId=523910&merchantId=180061",
+            "merchantId":180061,
+            "campaignId":523910,
+            "price":{
+               "sellingPrice":53,
+               "originalPrice":99,
+               "manipulatedOriginalPrice":53,
+               "discountedPrice":53,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"bb291fe989e68d9bdcd75a29b2c6c7a5",
+            "winnerVariant":"90B",
+            "itemNumber":56222553,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":427654,
+            "name":"Kadın Siyah Nelly Sütyen SU0432401SiYA",
+            "images":[
+               "/ty16/product/media/images/20201013/9/15440315/6095949/1/1_org_zoom.jpg",
+               "/ty16/product/media/images/20201013/9/15440315/6095949/2/2_org_zoom.jpg",
+               "/ty16/product/media/images/20201013/9/15440315/6095949/3/3_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":908,
+               "name":"Kom"
+            },
+            "imageAlt":"Kom Kadın Siyah Nelly Sütyen SU0432401SiYA",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"14_Siyah",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":4.581132075471698,
+               "totalCount":265
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"16"
+               },
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/kom/kadin-siyah-nelly-sutyen-su0432401siya-p-427654?boutiqueId=523910&merchantId=134996",
+            "merchantId":134996,
+            "campaignId":523910,
+            "price":{
+               "sellingPrice":86.9,
+               "originalPrice":149.9,
+               "manipulatedOriginalPrice":86.9,
+               "discountedPrice":86.9,
+               "buyingPrice":0
+            },
+            "promotions":[
+               
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"73c3d42f01e8ba0c571f0e5177ae6651",
+            "winnerVariant":"75DD",
+            "itemNumber":6095942,
+            "discountedPriceInfo":""
+         },
+         {
+            "id":532514,
+            "name":"Kadın Beyaz Balensiz Önden Açma Medikal Desteksiz Toparlayıcı Minimizer Küçültücü Sütyen 3651",
+            "images":[
+               "/ty10/product/media/images/20200814/13/8070034/12470857/1/1_org_zoom.jpg",
+               "/ty9/product/media/images/20200814/13/8070034/12470857/2/2_org_zoom.jpg"
+            ],
+            "brand":{
+               "id":10860,
+               "name":"Anıl"
+            },
+            "imageAlt":"Anıl Kadın Beyaz Balensiz Önden Açma Medikal Desteksiz Toparlayıcı Minimizer Küçültücü Sütyen 3651",
+            "installmentCount":12,
+            "tax":8,
+            "webColor":"3_Beyaz",
+            "businessUnit":"İç Giyim",
+            "ratingScore":{
+               "averageRating":3.85,
+               "totalCount":260
+            },
+            "showSexualContent":true,
+            "sections":[
+               {
+                  "id":"7"
+               },
+               {
+                  "id":"1"
+               },
+               {
+                  "id":"16"
+               }
+            ],
+            "categoryHierarchy":"Sütyen/Giyim/İç Giyim",
+            "categoryId":567,
+            "categoryName":"Sütyen",
+            "url":"/anil/kadin-beyaz-balensiz-onden-acma-medikal-desteksiz-toparlayici-minimizer-kucultucu-sutyen-3651-p-532514?boutiqueId=535625&merchantId=175050",
+            "merchantId":175050,
+            "campaignId":535625,
+            "price":{
+               "sellingPrice":69.99,
+               "originalPrice":89.99,
+               "manipulatedOriginalPrice":69.99,
+               "discountedPrice":69.99,
+               "buyingPrice":0
+            },
+            "promotions":[
+               {
+                  "id":213061,
+                  "name":"200 TL Üzeri %15 İndirim",
+                  "shortName":"KAÇMAZ FIRSAT"
+               }
+            ],
+            "rushDeliveryDuration":0,
+            "freeCargo":true,
+            "margin":0,
+            "campaignName":"İç Giyim",
+            "listingId":"a9912a4c5d8a69ba26aac1958f43f2dc",
+            "winnerVariant":"95D",
+            "itemNumber":6240287,
+            "discountedPriceInfo":""
+         }
+      ],
+      "totalCount":29048,
+      "searchStrategy":"DEFAULT",
+      "uxLayout":"Fashion",
+      "queryTerm":"",
+      "pageIndex":2
+   },
+   "headers":{
+      
+   }
+}

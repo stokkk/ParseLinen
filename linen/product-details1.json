@@ -1,0 +1,563 @@
+{
+   "product":{
+      "attributes":[
+         
+      ],
+      "alternativeVariants":[
+         
+      ],
+      "variants":[
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75B",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75b",
+            "isWinner":false,
+            "listingId":"6abe598fd6744bad9cea9319a34271ff",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086095",
+            "itemNumber":10545523,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75C",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75c",
+            "isWinner":false,
+            "listingId":"e679576737d7918c0b14b3ed0f4ab288",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086101",
+            "itemNumber":10545524,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80B",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80b",
+            "isWinner":false,
+            "listingId":"122d3d3fb4c3838d5a2b5d9e765da19a",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086125",
+            "itemNumber":10545525,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80C",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80c",
+            "isWinner":false,
+            "listingId":"c196d1a31400346928600fda4b018b86",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086132",
+            "itemNumber":10545526,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85B",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85b",
+            "isWinner":true,
+            "listingId":"07a424e025ce21442fb6b680176e6ce6",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086149",
+            "itemNumber":10545527,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85C",
+            "stamps":[
+               {
+                  "type":3,
+                  "text":"%30"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "sellingPrice":{
+                  "text":"59,47 TL",
+                  "value":59.47
+               },
+               "originalPrice":{
+                  "text":"84,95 TL",
+                  "value":84.95
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85c",
+            "isWinner":false,
+            "listingId":"ad5149e728344a4bc8e0e10ba119e2c9",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"6300250086156",
+            "itemNumber":10545528,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         }
+      ],
+      "otherMerchants":[
+         
+      ],
+      "campaign":{
+         "id":498246,
+         "name":"Penti - Ev Giyim & İç Giyim & Mayo",
+         "startDate":"2020-06-07T11:40:58",
+         "endDate":"2021-06-30T06:00:00",
+         "isMultipleSupplied":false,
+         "stockTypeId":7,
+         "url":"/penti---ev-giyim--ic-giyim--mayo/butikdetay/498246",
+         "showTimer":false
+      },
+      "category":{
+         "id":63,
+         "name":"Sütyen",
+         "hierarchy":"Giyim/İç Giyim/Sütyen",
+         "refundable":true,
+         "beautifiedName":"sutyen"
+      },
+      "brand":{
+         "isVirtual":true,
+         "beautifiedName":"penti",
+         "id":125,
+         "name":"Penti",
+         "path":"/penti"
+      },
+      "color":"Siyah",
+      "showVariants":true,
+      "showSexualContent":true,
+      "metaBrand":{
+         "id":8605,
+         "name":"Penti",
+         "beautifiedName":"",
+         "isVirtual":false,
+         "path":""
+      },
+      "landings":[
+         
+      ],
+      "id":1123600,
+      "productCode":"PLBEAUTS13IY-b1",
+      "name":"Siyah Beauty Sütyen",
+      "nameWithProductCode":"Siyah Beauty Sütyen PLBEAUTS13IY-b1",
+      "description":"\u003cul>\u003cli>%80 Polyamid %20 Elastan\u003c/li>\u003cli>Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.\u003c/li>\u003cli>Kampanya fiyatından satılmak üzere 50 adetten fazla stok sunulmuştur.\u003c/li>\u003cli>İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.\u003c/li>\u003c/ul>",
+      "contentDescriptions":[
+         {
+            "description":"%80 Polyamid %20 Elastan",
+            "bold":false
+         },
+         {
+            "description":"Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.",
+            "bold":false
+         },
+         {
+            "description":"Kampanya fiyatından satılmak üzere 50 adetten fazla stok sunulmuştur.",
+            "bold":false
+         },
+         {
+            "description":"İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.",
+            "bold":false
+         }
+      ],
+      "productGroupId":836164,
+      "tax":8,
+      "businessUnit":"İç Giyim",
+      "gender":{
+         "name":"Kadın",
+         "id":1
+      },
+      "url":"/penti/siyah-beauty-sutyen-p-1123600?boutiqueId=498246&merchantId=4442",
+      "images":[
+         "/Assets/ProductImages/oa/72/1123600/1/6300250086095_1_org_zoom.jpg",
+         "/Assets/ProductImages/oa/72/1123600/1/6300250086095_2_org_zoom.jpg"
+      ],
+      "isSellable":true,
+      "isBasketDiscount":false,
+      "hasStock":true,
+      "price":{
+         "profitMargin":0,
+         "discountedPrice":{
+            "text":"59,47 TL",
+            "value":59.47
+         },
+         "sellingPrice":{
+            "text":"59,47 TL",
+            "value":59.47
+         },
+         "originalPrice":{
+            "text":"84,95 TL",
+            "value":84.95
+         },
+         "currency":"TRY"
+      },
+      "isFreeCargo":false,
+      "promotions":[
+         
+      ],
+      "merchant":{
+         "id":4442,
+         "name":"Penti ",
+         "officialName":"PENTİ GİYİM TİCARET A.Ş.",
+         "cityName":" İstanbul ",
+         "taxNumber":"7280059048",
+         "sellerScore":8.3,
+         "sellerScoreColor":"EAC90B",
+         "sellerLink":"/magaza/penti-m-4442"
+      },
+      "deliveryInformation":{
+         "isRushDelivery":false,
+         "deliveryDate":"23 Kasım - 4 Aralık"
+      },
+      "isMarketplace":true,
+      "productStamps":[
+         
+      ],
+      "hasHtmlContent":true,
+      "favoriteCount":18957,
+      "uxLayout":"Fashion",
+      "isDigitalGood":false,
+      "isRunningOut":false,
+      "scheduledDelivery":false,
+      "ratingScore":{
+         "averageRating":4.42,
+         "totalRatingCount":798,
+         "totalCommentCount":509
+      },
+      "showStarredAttributes":false,
+      "reviewsUrl":"/penti/siyah-beauty-sutyen-p-1123600/yorumlar",
+      "sellerQuestionEnabled":true,
+      "breadcrumb":{
+         "items":[
+            {
+               "name":"Kadın",
+               "path":"/kadin",
+               "type":"GENDER"
+            },
+            {
+               "name":"Giyim",
+               "path":"/kadin+giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"İç Giyim",
+               "path":"/kadin+ic-giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Sütyen",
+               "path":"/kadin+sutyen",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Penti Sütyen",
+               "path":"/kadin+sutyen/penti",
+               "type":"BRAND"
+            }
+         ]
+      }
+   },
+   "htmlContent":"\u003cdiv id=\"rich-content-wrapper\">\n \u003cdiv>\n   https://hizliresim.com/gbjqA5\"&gt; \n  \u003cimg data-src=\"{cdn_url}/assets/product/media/html-images/20200219/13/1123600/4e9ebfca-7ff8-4b26-83a9-20b95b9d6be0.jpg\"> \n  \u003cbr> \n \u003c/div>\n\u003c/div>",
+   "user":{
+      "loggedIn":true,
+      "id":38720936,
+      "isBuyer":false
+   },
+   "configuration":{
+      "htmlContentCssUrl":"https://cdn.dsmcdn.com/mweb/production/main.aab850b0c0ee19a8dc1e.css",
+      "htmlContentJsUrl":"https://cdn.dsmcdn.com/mweb/production/main.6a9f43734fae5b089c3d.js",
+      "storefrontId":1,
+      "culture":"tr-TR",
+      "cdnUrl":"https://cdn.dsmcdn.com",
+      "claimInfoText":"15 gün içinde ücretsiz iade.",
+      "questionsAndAnswersEnabled":true,
+      "ratingReviewEnabled":true,
+      "ratingReviewLikesEnabled":true,
+      "newRatingSummaryEnabled":true,
+      "redirectReviewsPageEnabled":true,
+      "languageCode":"tr",
+      "sizeCharts":[
+         [
+            "Güneş Gözlüğü",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "İmaj Gözlükleri",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "Saat",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/saatler_beden_tablosu.jpg",
+            "Saat Beden Kılavuzu"
+         ]
+      ],
+      "enhancedEcommerceEnabled":true,
+      "addReviewEnabled":false,
+      "reviewReportAbuseEnabled":true,
+      "showImageOnProductCommentsEnabled":true,
+      "crossProductsTitle":"Bu Ürünü Alanlar Bunları da Aldı",
+      "crossProductsEnabled":true,
+      "recommendationEnabled":true,
+      "productGroupEnabled":true,
+      "htmlContentEnabled":true,
+      "productAttributesEnabled":true,
+      "publishCriteriaEnabled":true,
+      "sellerAreaEnabled":true,
+      "sellerPointLowLimit":8,
+      "sizeChartUrl":"https://cdn.dsmcdn.com/Assets/frontend-web-sizechart/tr1.html",
+      "productDetailMetaDescription":"Trendyol.com sayesinde {0} ürününe çok özel indirimlerle sahip olabilecek ve alışveriş alışkanlıklarınızı değiştireceksiniz.",
+      "schemaJsonEnabled":true,
+      "siteAddress":"https://www.trendyol.com",
+      "notifyMeEnabled":true,
+      "notifyMeCount":10,
+      "accountGwFavoritesEnabled":true,
+      "browsingGwUrl":"https://api.trendyol.com/webproductgw",
+      "recommendationAbTestValue":"A_0-0,B_0_0,C_1-100",
+      "lastProductCountAbTestValue":"A_0-0,B_0-100",
+      "recoCardAbTestValue":"A_0-100,B_0-0",
+      "abTestingCookieName":"WebAbTesting",
+      "clientSideReviewsEnabled":false,
+      "clientSideHtmlContentEnabled":false,
+      "alternativeVariantsEnabled":true,
+      "relatedCategoryEnabled":true,
+      "relatedCategoryAbTestVariant":"C",
+      "relatedCategoryAbTestValue":"A_0-0,B_0-0,C_0-0,D_1-100,E_0-0",
+      "relatedCategoryTitleTooltipThreshold":43,
+      "relatedCategoryCountLimit":5,
+      "relatedCategoryImageVirtualBrandIds":[
+         33,
+         102347,
+         39,
+         141,
+         53,
+         981,
+         254,
+         204,
+         466,
+         155,
+         296,
+         586,
+         37,
+         131,
+         971,
+         178,
+         333,
+         129,
+         136,
+         49,
+         328,
+         179,
+         38,
+         101446,
+         568,
+         138,
+         859,
+         289,
+         754,
+         43,
+         128,
+         44,
+         618,
+         569,
+         535,
+         193,
+         660,
+         160,
+         303,
+         347,
+         1265,
+         658,
+         103029,
+         104699,
+         300,
+         103500,
+         103124,
+         101476,
+         103187,
+         104189,
+         208
+      ],
+      "relatedCategoryVirtualBrandImagePath":"assets/banner/2018/mobileCDN/brandFollow",
+      "defaultBrandCategoryCombinationImageUrl":"Assets/related-category-default-image.png",
+      "legalRequirementCacheDuration":31556926,
+      "digitalGoodsDeliveryText":"1 saat içinde E-mail olarak gönderilecektir.",
+      "recoCrossCustomStampsEnabled":true,
+      "layoutsToShowOpenSizeChartButton":"Fashion",
+      "productDetailImprovedBreadcrumbEnabled":true,
+      "sellerShippingEnabled":false,
+      "productDetailReportAbuseEnabled":true,
+      "productDetailReportAbuseItems":"[{\"id\": 0,\"value\": \"Haksız fiyatlandırma fiyatı hatalı.\"},{\"id\": 1,\"value\": \"Ürünün görseli hatalı.\"},{\"id\": 2,\"value\": \"Ürün ismi ya da bilgileri eksik ya da hatalı.\"}]",
+      "scheduledDeliveryWarningMessage":"Seçtiğiniz adrese şu anda randevulu teslimat hizmeti bulunmamaktadır. Ürünleriniz kargo ile gönderilecektir.",
+      "newCarouselEnabled":true,
+      "installmentStampAmountText":"9 TAKSİT",
+      "starredAttributesLimit":4,
+      "sellerStoreLinkEnabled":true,
+      "featuredCardFavButtonEnabled":true,
+      "newVariantStyleTest":1,
+      "openReviewModalEnabled":false,
+      "installmentCountToDisplay":9,
+      "installmentInformationAbTest":0,
+      "currencySymbol":"TL",
+      "brandNameAbTest":1,
+      "newSearchEnabled":false
+   }
+}

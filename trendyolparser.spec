@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['trendyolparser.py'],
+a = Analysis(['TrendyolParser.py'],
              pathex=['H:\\DENIS\\work\\Linen'],
              binaries=[],
              datas=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='trendyolparser',
+          name='TrendyolParser',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

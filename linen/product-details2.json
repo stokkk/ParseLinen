@@ -1,0 +1,1304 @@
+{
+   "product":{
+      "attributes":[
+         
+      ],
+      "alternativeVariants":[
+         
+      ],
+      "variants":[
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75c",
+            "isWinner":true,
+            "listingId":"cb64bf503219718822a9814854df9a5f",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757919380",
+            "itemNumber":45587196,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75d",
+            "isWinner":false,
+            "listingId":"5b6354f879301c8136d2cf427669b29c",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909046",
+            "itemNumber":45588246,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80b",
+            "isWinner":false,
+            "listingId":"32f9e75497679791d7af485a43aea14f",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909060",
+            "itemNumber":45587146,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80c",
+            "isWinner":false,
+            "listingId":"f9990915f2a39d59903fbc98d0990158",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909077",
+            "itemNumber":45587796,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80d",
+            "isWinner":false,
+            "listingId":"a72e85422139005f8e71454bc4b20358",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909084",
+            "itemNumber":45588896,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85b",
+            "isWinner":false,
+            "listingId":"80681ad687f4fc6e67bd8191526f1922",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909107",
+            "itemNumber":45588096,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85c",
+            "isWinner":false,
+            "listingId":"6338d5ae5dcf086040d904f7c9236c48",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909114",
+            "itemNumber":45588546,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85d",
+            "isWinner":false,
+            "listingId":"64dc04d0271e0142fca6567c11b25a46",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909121",
+            "itemNumber":45587296,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90b",
+            "isWinner":false,
+            "listingId":"15f338f8b70dfa2c0eaab4d322a5e575",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909145",
+            "itemNumber":36351046,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90c",
+            "isWinner":false,
+            "listingId":"785a87dff2b34d46762f1a2445bdd04e",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909152",
+            "itemNumber":45588646,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90d",
+            "isWinner":false,
+            "listingId":"0852583b95dc1d807834d34fe437550c",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909169",
+            "itemNumber":45586646,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95b",
+            "isWinner":false,
+            "listingId":"3f194547caf9b2f38b61b5c667a37378",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909183",
+            "itemNumber":45587496,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95c",
+            "isWinner":false,
+            "listingId":"392f39c80b5a2955bfe62d50566c02ef",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909190",
+            "itemNumber":45588496,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95d",
+            "isWinner":false,
+            "listingId":"4a6a42139d3ea97d4f992b3d99afcaea",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909206",
+            "itemNumber":56417819,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"100B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"100b",
+            "isWinner":false,
+            "listingId":"d19f28ca6c96ccc8ea6d985854be891a",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909015",
+            "itemNumber":45588446,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"100C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"100c",
+            "isWinner":false,
+            "listingId":"1367a54c1a195c52e212baddca3ba456",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909022",
+            "itemNumber":45586696,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"100D",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"100d",
+            "isWinner":false,
+            "listingId":"e452f2411349c41e46f5f0a5f55b8fef",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757919588",
+            "itemNumber":45587596,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"105B",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"105b",
+            "isWinner":false,
+            "listingId":"718667ce470ddd994c31e43d422d7dd6",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909039",
+            "itemNumber":45588746,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"105C",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"105c",
+            "isWinner":false,
+            "listingId":"3b1e9ec84e0a8a557e843d60d382bee6",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757919373",
+            "itemNumber":45588196,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"80E",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"80e",
+            "isWinner":false,
+            "listingId":"abc031dae49706e56b486833cf060890",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909091",
+            "itemNumber":45587396,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"75E",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"75e",
+            "isWinner":false,
+            "listingId":"aa088970c5cc9d1e42a38d918825f907",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909053",
+            "itemNumber":45586946,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"85E",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"85e",
+            "isWinner":false,
+            "listingId":"2f421773f3ba107961dc374b0643e866",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909138",
+            "itemNumber":45587696,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"95E",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"95e",
+            "isWinner":false,
+            "listingId":"3079e6d7e4d3b261ad5769d7e6256399",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757919595",
+            "itemNumber":45588796,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         },
+         {
+            "attributeId":338,
+            "attributeName":"Beden",
+            "attributeType":"Size",
+            "attributeValue":"90E",
+            "stamps":[
+               {
+                  "type":1,
+                  "text":"KARGO BEDAVA"
+               }
+            ],
+            "price":{
+               "profitMargin":0,
+               "discountedPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "sellingPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "originalPrice":{
+                  "text":"134,90 TL",
+                  "value":134.9
+               },
+               "currency":"TRY"
+            },
+            "attributeBeautifiedValue":"90e",
+            "isWinner":false,
+            "listingId":"094fb7fdf6dfac22cb2d3b5e17ee99d4",
+            "stock":null,
+            "sellable":true,
+            "availableForClaim":true,
+            "barcode":"4047757909176",
+            "itemNumber":45587846,
+            "discountedPriceInfo":"",
+            "unitInfo":{
+               "unitPrice":false,
+               "unitPriceText":false
+            }
+         }
+      ],
+      "otherMerchants":[
+         
+      ],
+      "campaign":{
+         "id":540164,
+         "name":"Suwen - Ev Giyim & İç Giyim - 3 Al 2 Öde",
+         "startDate":"2020-11-06T18:00:30",
+         "endDate":"2020-11-30T06:00:00",
+         "isMultipleSupplied":false,
+         "stockTypeId":7,
+         "url":"/suwen---ev-giyim--ic-giyim---3-al-2-ode/butikdetay/540164",
+         "showTimer":false
+      },
+      "category":{
+         "id":63,
+         "name":"Sütyen",
+         "hierarchy":"Giyim/İç Giyim/Sütyen",
+         "refundable":true,
+         "beautifiedName":"sutyen"
+      },
+      "brand":{
+         "isVirtual":true,
+         "beautifiedName":"suwen",
+         "id":271,
+         "name":"Suwen",
+         "path":"/suwen"
+      },
+      "color":"si?yah",
+      "showVariants":true,
+      "showSexualContent":true,
+      "metaBrand":{
+         "id":419,
+         "name":"SUWEN",
+         "beautifiedName":"",
+         "isVirtual":false,
+         "path":""
+      },
+      "landings":[
+         
+      ],
+      "id":18651959,
+      "productCode":"SW8270012",
+      "name":"Kadın Siyah Miranda Minimizer Sütyen",
+      "nameWithProductCode":"Kadın Siyah Miranda Minimizer Sütyen SW8270012",
+      "description":"\u003cul>\u003cli>Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.\u003c/li>\u003cli>Kampanya fiyatından satılmak üzere 100 adetten fazla stok sunulmuştur.\u003c/li>\u003cli>İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.\u003c/li>\u003c/ul>",
+      "contentDescriptions":[
+         {
+            "description":"Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.",
+            "bold":false
+         },
+         {
+            "description":"Kampanya fiyatından satılmak üzere 100 adetten fazla stok sunulmuştur.",
+            "bold":false
+         },
+         {
+            "description":"İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir.",
+            "bold":false
+         }
+      ],
+      "productGroupId":15926748,
+      "tax":8,
+      "businessUnit":"İç Giyim",
+      "gender":{
+         "name":"Kadın",
+         "id":1
+      },
+      "url":"/suwen/kadin-siyah-miranda-minimizer-sutyen-p-18651959?boutiqueId=540164&merchantId=367",
+      "images":[
+         "/ty22/product/media/images/20201111/9/24939595/45587196/1/1_org_zoom.jpg",
+         "/ty21/product/media/images/20201111/9/24939595/45587196/2/2_org_zoom.jpg",
+         "/ty21/product/media/images/20201111/9/24939595/45587196/3/3_org_zoom.jpg",
+         "/ty21/product/media/images/20201111/9/24939595/45587196/4/4_org_zoom.jpg"
+      ],
+      "isSellable":true,
+      "isBasketDiscount":false,
+      "hasStock":true,
+      "price":{
+         "profitMargin":0,
+         "discountedPrice":{
+            "text":"134,90 TL",
+            "value":134.9
+         },
+         "sellingPrice":{
+            "text":"134,90 TL",
+            "value":134.9
+         },
+         "originalPrice":{
+            "text":"134,90 TL",
+            "value":134.9
+         },
+         "currency":"TRY"
+      },
+      "isFreeCargo":false,
+      "promotions":[
+         {
+            "type":1,
+            "text":"3 Al 2 Öde",
+            "id":223914,
+            "link":"/tum--urunler?promotions=223914"
+         }
+      ],
+      "merchant":{
+         "id":367,
+         "name":"SUWEN",
+         "officialName":"SUWEN TEKSTİL SANAYİ PAZARLAMA ANONİM ŞİRKETİ",
+         "cityName":" İstanbul ",
+         "taxNumber":"3300499555",
+         "sellerScore":8.6,
+         "sellerScoreColor":"BAC82D",
+         "sellerLink":"/magaza/suwen-m-367"
+      },
+      "deliveryInformation":{
+         "isRushDelivery":false,
+         "deliveryDate":"23 Kasım - 4 Aralık"
+      },
+      "isMarketplace":true,
+      "productStamps":[
+         
+      ],
+      "hasHtmlContent":true,
+      "favoriteCount":4290,
+      "uxLayout":"Fashion",
+      "isDigitalGood":false,
+      "isRunningOut":false,
+      "scheduledDelivery":false,
+      "ratingScore":{
+         "averageRating":4.51,
+         "totalRatingCount":787,
+         "totalCommentCount":561
+      },
+      "showStarredAttributes":false,
+      "reviewsUrl":"/suwen/kadin-siyah-miranda-minimizer-sutyen-p-18651959/yorumlar",
+      "sellerQuestionEnabled":true,
+      "breadcrumb":{
+         "items":[
+            {
+               "name":"Kadın",
+               "path":"/kadin",
+               "type":"GENDER"
+            },
+            {
+               "name":"Giyim",
+               "path":"/kadin+giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"İç Giyim",
+               "path":"/kadin+ic-giyim",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Sütyen",
+               "path":"/kadin+sutyen",
+               "type":"CATEGORY"
+            },
+            {
+               "name":"Suwen Sütyen",
+               "path":"/kadin+sutyen/suwen",
+               "type":"BRAND"
+            }
+         ]
+      }
+   },
+   "htmlContent":"\u003cdiv id=\"rich-content-wrapper\">\n \u003cul> \n  \u003cli>Dantelli \u003cbr> \u003c/li> \n  \u003cli>Büyük bedene uygundur \u003cbr> \u003c/li> \n  \u003cli>Mikrofiber kumaş \u003cbr> \u003c/li> \n  \u003cli>Küçültücü / minimizer \u003cbr> \u003c/li> \n  \u003cli>Balensiz \u003cbr> \u003c/li> \n  \u003cli>Desteksiz \u003cbr> \u003c/li> \n  \u003cli>Kupsuz \u003cbr> \u003c/li> \n  \u003cli>Sabit askılı \u003cbr> \u003c/li> \n  \u003cli>Balkonet \u003cbr> \u003c/li> \n  \u003cli>Elde yıkama \u003cbr> \u003c/li> \n \u003c/ul> \n \u003cdiv>\n  Büyük göğüslü kadınların vazgeçilmezi: Miranda minimizer sütyen. Göğüs altı bantları balen görevi görür ve bu noktada göğüslerinizin sıkışmasını engeller. Göğüs altı bant ve kol altı balenleri sayesinde göğsü tam anlamıyla kavrayan ve bunu mükemmel bir konfor sağlayarak yapan siyah renk sütyen, göğüs bedeninizi tam 2 beden küçülterek arzuladığınız feminen görüntüye en rahat şekilde ulaşmanızı sağlar. Askıları ve sırt kalınlığı bedene göre değişebilen miranda minimizer sütyen tüm arayışlarınızı tek üründe tamamlar. Doğru yıkmama ve saklama koşulları ile uzun yıllar kullanım vadeden eden sütyen, kaliteli materyali, rahatlığı ve şıklığı ile gardırobunuzun vazgeçilmez parçası olmaya aday. Siz de hem günlük kullanım hem özel günlerde kullanım için, özellikle koyu renk kıyafetlerinizde size destek olacak bir küçültücü sütyen arıyorsanız miranda minimizer sütyen modelini tercih edebilirsiniz. Bedeniniz ölçülerindeki ürünü sepetinize ekleyip satın alabilir, iç çamaşırında aradığınız konforu ve eşsiz duruşu suwen ile yakalayabilirsiniz. \n  \u003cbr>\n \u003c/div>\n\u003c/div>",
+   "user":{
+      "loggedIn":true,
+      "id":38720936,
+      "isBuyer":false
+   },
+   "configuration":{
+      "htmlContentCssUrl":"https://cdn.dsmcdn.com/mweb/production/main.aab850b0c0ee19a8dc1e.css",
+      "htmlContentJsUrl":"https://cdn.dsmcdn.com/mweb/production/main.6a9f43734fae5b089c3d.js",
+      "storefrontId":1,
+      "culture":"tr-TR",
+      "cdnUrl":"https://cdn.dsmcdn.com",
+      "claimInfoText":"15 gün içinde ücretsiz iade.",
+      "questionsAndAnswersEnabled":true,
+      "ratingReviewEnabled":true,
+      "ratingReviewLikesEnabled":true,
+      "newRatingSummaryEnabled":true,
+      "redirectReviewsPageEnabled":true,
+      "languageCode":"tr",
+      "sizeCharts":[
+         [
+            "Güneş Gözlüğü",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "İmaj Gözlükleri",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/gozluk_beden_tablosu.jpg",
+            "Gözlük Beden Kılavuzu"
+         ],
+         [
+            "Saat",
+            "https://img-trendyol.mncdn.com/assets/banner/2018/webBanners/bedenTablosu/saatler_beden_tablosu.jpg",
+            "Saat Beden Kılavuzu"
+         ]
+      ],
+      "enhancedEcommerceEnabled":true,
+      "addReviewEnabled":false,
+      "reviewReportAbuseEnabled":true,
+      "showImageOnProductCommentsEnabled":true,
+      "crossProductsTitle":"Bu Ürünü Alanlar Bunları da Aldı",
+      "crossProductsEnabled":true,
+      "recommendationEnabled":true,
+      "productGroupEnabled":true,
+      "htmlContentEnabled":true,
+      "productAttributesEnabled":true,
+      "publishCriteriaEnabled":true,
+      "sellerAreaEnabled":true,
+      "sellerPointLowLimit":8,
+      "sizeChartUrl":"https://cdn.dsmcdn.com/Assets/frontend-web-sizechart/tr1.html",
+      "productDetailMetaDescription":"Trendyol.com sayesinde {0} ürününe çok özel indirimlerle sahip olabilecek ve alışveriş alışkanlıklarınızı değiştireceksiniz.",
+      "schemaJsonEnabled":true,
+      "siteAddress":"https://www.trendyol.com",
+      "notifyMeEnabled":true,
+      "notifyMeCount":10,
+      "accountGwFavoritesEnabled":true,
+      "browsingGwUrl":"https://api.trendyol.com/webproductgw",
+      "recommendationAbTestValue":"A_0-0,B_0_0,C_1-100",
+      "lastProductCountAbTestValue":"A_0-0,B_0-100",
+      "recoCardAbTestValue":"A_0-100,B_0-0",
+      "abTestingCookieName":"WebAbTesting",
+      "clientSideReviewsEnabled":false,
+      "clientSideHtmlContentEnabled":false,
+      "alternativeVariantsEnabled":true,
+      "relatedCategoryEnabled":true,
+      "relatedCategoryAbTestVariant":"C",
+      "relatedCategoryAbTestValue":"A_0-0,B_0-0,C_0-0,D_1-100,E_0-0",
+      "relatedCategoryTitleTooltipThreshold":43,
+      "relatedCategoryCountLimit":5,
+      "relatedCategoryImageVirtualBrandIds":[
+         33,
+         102347,
+         39,
+         141,
+         53,
+         981,
+         254,
+         204,
+         466,
+         155,
+         296,
+         586,
+         37,
+         131,
+         971,
+         178,
+         333,
+         129,
+         136,
+         49,
+         328,
+         179,
+         38,
+         101446,
+         568,
+         138,
+         859,
+         289,
+         754,
+         43,
+         128,
+         44,
+         618,
+         569,
+         535,
+         193,
+         660,
+         160,
+         303,
+         347,
+         1265,
+         658,
+         103029,
+         104699,
+         300,
+         103500,
+         103124,
+         101476,
+         103187,
+         104189,
+         208
+      ],
+      "relatedCategoryVirtualBrandImagePath":"assets/banner/2018/mobileCDN/brandFollow",
+      "defaultBrandCategoryCombinationImageUrl":"Assets/related-category-default-image.png",
+      "legalRequirementCacheDuration":31556926,
+      "digitalGoodsDeliveryText":"1 saat içinde E-mail olarak gönderilecektir.",
+      "recoCrossCustomStampsEnabled":true,
+      "layoutsToShowOpenSizeChartButton":"Fashion",
+      "productDetailImprovedBreadcrumbEnabled":true,
+      "sellerShippingEnabled":false,
+      "productDetailReportAbuseEnabled":true,
+      "productDetailReportAbuseItems":"[{\"id\": 0,\"value\": \"Haksız fiyatlandırma fiyatı hatalı.\"},{\"id\": 1,\"value\": \"Ürünün görseli hatalı.\"},{\"id\": 2,\"value\": \"Ürün ismi ya da bilgileri eksik ya da hatalı.\"}]",
+      "scheduledDeliveryWarningMessage":"Seçtiğiniz adrese şu anda randevulu teslimat hizmeti bulunmamaktadır. Ürünleriniz kargo ile gönderilecektir.",
+      "newCarouselEnabled":true,
+      "installmentStampAmountText":"9 TAKSİT",
+      "starredAttributesLimit":4,
+      "sellerStoreLinkEnabled":true,
+      "featuredCardFavButtonEnabled":true,
+      "newVariantStyleTest":1,
+      "openReviewModalEnabled":false,
+      "installmentCountToDisplay":9,
+      "installmentInformationAbTest":0,
+      "currencySymbol":"TL",
+      "brandNameAbTest":1,
+      "newSearchEnabled":false
+   }
+}

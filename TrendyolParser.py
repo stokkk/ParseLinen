@@ -1,22 +1,23 @@
-
+import os
 import sys
-
+import json
 import requests
-from torpy.http.requests import tor_requests_session
-from torpy.cell_socket import TorSocketConnectError
 import cfscrape # обход cloudflare
 
-import json
-from bs4 import BeautifulSoup as BSoup
-from HeadersUtil import random_headers
-from TextUtil import simplify, shorten
 from time import sleep
+from loguru import logger
+from collections import defaultdict
+
+from bs4 import BeautifulSoup as BSoup
+from torpy.http.requests import tor_requests_session
+from torpy.cell_socket import TorSocketConnectError
+
+from TextUtil import simplify, shorten
+from HeadersUtil import random_headers
 from exceptions import CriticalConnectionError, CriticalProxyError
 
-import logging
-from collections import defaultdict
-from loguru import logger
 
+#defaul config
 DEBUG = False
 DOWNLOAD_IMAGES = False
 TEST = False
@@ -26,10 +27,9 @@ PERPAGE = 1
 MAX_COUNT_PRODUCTS = 300
 UPLOAD = False
 
-
-
 HEADERS = "Brand;Name;Barcode;GroupID;Size;Images;Stock;Price;DiscountPrice;color;"
 count_products = 0 # кол-во спаршеных страниц продуктов
+
 
 api_url = r'https://api.trendyol.com/websearchgw/api/infinite-scroll/kadin+{0}?siralama=6&pi={1}&storefrontId=1&culture=tr-TR&userGenderId=1&searchStrategyType=DEFAULT&pId=ljZd49AsB3&scoringAlgorithmId=1&categoryRelevancyEnabled=undefined&isLegalRequirementConfirmed=True'
 group_url = r'https://api.trendyol.com/webproductgw/api/productGroup/{0}?storefrontId=1&culture=tr-TR'
@@ -39,9 +39,10 @@ categories = [
     'korse', 'atlet--body', 'fantezi-giyim', 'pijama', 'ic-camasiri-takimlari', 'gecelik', 'string',
 ]
 
+
 list_group_id = list()
 
-logger.add('debug.log', format="{time} {level} {message}", rotation="1")
+logger.add('debug.log', format="{time} {level} {message}", rotation="1", compression="zip")
 
 # make configuration
 try:
@@ -68,8 +69,27 @@ try:
             DEBUG = True
     fp.close()
 except (json.JSONDecodeError, IOError):
-    print("Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
+    logger.critical("Невозможно открыть файл config.json. Возможно он используется в другом приложении или поврежден.")
     sys.exit(-1)
+
+# print configuration
+def print_configuration():
+    stars = '*' * 60
+    print(f"""
+    {stars}
+    Configuration of this program:
+
+    DEBUG: {DEBUG}
+    TIMEOUT: {TIMEOUT}
+    GAP:{GAP}
+    COUNT PAGES FOR ONE TIME: {PERPAGE}
+    DOWNLOAD IMAGES: {DOWNLOAD_IMAGES}
+    UPLOAD PRODUCTS: {UPLOAD}
+    COUNT PRODUCTS IN CATEGORY: {MAX_COUNT_PRODUCTS}
+    LIST OF CATEGORIES: {', '.join(categories)}
+
+    {stars}
+    """)
 
 
 
@@ -95,19 +115,16 @@ def get_response(url):
             resp.raise_for_status()  # raise HTTPError
             return resp # response
 
-
+        except requests.ConnectionError as conn_err:
+            logger.warning("'ConnectionError' info:\n%s" % conn_err.strerror)
+            return get_response(url)
         except TorSocketConnectError:
-            if DEBUG:
-                logger.debug("'TorSocketConnectError' url - %s" % url)
+            logger.warning("'TorSocketConnectError' url - %s" % url)
             return get_response(url)
         except requests.HTTPError:
-            if DEBUG:
-                logger.debug("'HTTPError' url - %s" % url)
+            logger.warning("'HTTPError' url - %s" % url)
             return get_response(url)
-        except requests.ConnectionError as conn_err:
-            if DEBUG:
-                logger.debug("'ConnectionError' info:\n%s" % conn_err.strerror)
-            return get_response(url)
+
         except requests.Timeout:
             raise CriticalConnectionError
 
@@ -174,34 +191,26 @@ def download_info(json_, path):
             name, brand, color, group_id = (prod['name'], 
             prod['brand']['name'], prod['color'], prod['productGroupId'] )
             description = simplify(BSoup(prod['description'], 'html.parser').text)
-            # первый со всеми атрибутами
-            headvar = prod['variants'][0]
-            stock, size, price, discount, barcode = (headvar['stock'], headvar['attributeValue'], 
-                headvar['price']['originalPrice']['value'],headvar['price']['discountedPrice']['value'], headvar['barcode'] )
-            if DOWNLOAD_IMAGES:
-                images = ','.join(
-                    download_image([picdomain + ipath for ipath in prod['images']]))
-            else:
-                images = ','.join([picdomain + ipath for ipath in prod['images']])
-            fp.write(bytes(
-                f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
-                , encoding="utf-8"))
-            
-            if DEBUG:
-                logger.debug("Product with gorupId '%s' was added" % str(group_id))
+            description = '"' + '\n'.join((d['description'].strip() for d in prod["contentDescriptions"])).strip().replace('"', '""') + '"'
+            if DEBUG: logger.debug("Product with gorupId '%s' was added" % str(group_id))
 
             # запись вариантов товаров без названий и описания
-            for variant in prod['variants'][1:]:
+            for variant in prod['variants']:
                 stock, size, price, discount, barcode = (variant['stock'], variant['attributeValue'], 
                 variant['price']['originalPrice']['value'],variant['price']['discountedPrice']['value'], variant['barcode'] )
-
+                if DOWNLOAD_IMAGES:
+                    images = ','.join(
+                        download_image([picdomain + ipath for ipath in prod['images']]))
+                else:
+                    images = ','.join([picdomain + ipath for ipath in prod['images']])
+            
                 # writing into csv file
                 fp.write(bytes(
-                    f";;{barcode};{group_id};{size};{color};{stock};{price};{discount};;;\n"
-                    , encoding="utf-8"))
+                f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
+                , encoding="utf-8"))
  
         except KeyError:
-            logger.debug("'KeyError' Json - %s" % str(json_))
+            if DEBUG: logger.debug("'KeyError' Json - %s" % str(json_))
 
 
 def upload_info(json_, path):
@@ -224,7 +233,7 @@ def upload_info(json_, path):
                 fp.write(bytes(f";;{barcode};{group_id};{size};;{stock};{price};{discount};;;\n", encoding="utf-8"))
 
         except KeyError:
-            logger.debug("'KeyError' Json - %s" % str(json_))
+            if DEBUG: logger.debug("'KeyError' Json - %s" % str(json_))
 
 
 def download_products_group(json_, path, url):
@@ -257,12 +266,12 @@ def download_products_group(json_, path, url):
                     parse_info(info_resp,path)
         else: # если нету - только сам товар
             link = domain+url
-            logger.debug('trying parse once product url - %s' % shorten(link,40))
+            if DEBUG: logger.debug('trying parse once product url - %s' % shorten(link,40))
             info_resp = get_response(link)
             parse_info(info_resp,path)
         return True
     except KeyError:
-        logger.debug("'KeyError' Json - %s" % str(json_))
+        if DEBUG: logger.debug("'KeyError' Json - %s" % str(json_))
         return False
 
 # parse
@@ -287,7 +296,7 @@ def parse_info(resp,path):
         else:
             download_info(json_,path)
     except json.JSONDecodeError:
-        logger.debug("'JSONDecodeError' static - %s" % resp.text)
+        if DEBUG: logger.debug("'JSONDecodeError' static - %s" % resp.text)
 
     
 def parse_group(resp, path):
@@ -309,15 +318,14 @@ def parse_group(resp, path):
     try:
         json_ = find_json(static=resp.text)
     except json.JSONDecodeError:
-        logger.debug("'JSONDecodeError' static - %s" % resp.text)
+        if DEBUG: logger.debug("'JSONDecodeError' static - %s" % resp.text)
         return False
 
     try:
         prod = json_['product']
         url = prod['url']
         productGroupId = prod['productGroupId']
-        if DEBUG:
-            logger.debug("Product with gorupId '%s' ready to download" % str(productGroupId))
+        if DEBUG: logger.debug("Product with gorupId '%s' ready to download" % str(productGroupId))
         if productGroupId in list_group_id:
             return False
         
@@ -326,7 +334,7 @@ def parse_group(resp, path):
         response = get_response(group_url.format(productGroupId)) # group_id
         return download_products_group(response.json(), path, url)
     except KeyError:
-        logger.debug("KeyError")
+        if DEBUG: logger.debug("KeyError")
         return False
 
 
@@ -388,28 +396,25 @@ def parse(category):
             else:
                 i += PERPAGE
     except CriticalConnectionError:
-        logger.debug("Сервер не отправил никаких данных в отведенное время.\nПожалуйста проверьте интернет соединение.")
+        logger.critical("Сервер не отправил никаких данных в отведенное время.\nПожалуйста проверьте интернет соединение.")
         sys.exit(-1)
     except CriticalProxyError:
-        logger.debug("Нету надежных прокси серверов.")
+        logger.critical("Нету надежных прокси серверов.")
         sys.exit(-1)
 
 
+def main(argv=sys.argv):
+    # start
+    print_configuration()
+    for categ in categories:
+        parse(categ)
+    print("Готово!")
+    os.system("pause")
+    return 0
 
-# print configuration
-print()
-print('*' * 60)
-print("configuration of this program\n")
-print(f"\nDEBUG: {DEBUG}\nTIMEOUT: {TIMEOUT}\nGAP:{GAP}\nCOUNT_PAGE_FOR_ONE_TIME: {PERPAGE}\nDOWNLOAD IMAGES: {DOWNLOAD_IMAGES}\nUPLOAD PRODUCTS: {UPLOAD}")
-print("Categories list:\n",categories)
-print("Headers of table: %s\n\n" % HEADERS)
-print('*' * 60)
+if __name__ == "__main__":
+    sys.exit(main())
 
-# start
-
-
-for categ in categories:
-    parse(categ)
 
 
 

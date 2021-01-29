@@ -1,96 +1,40 @@
-2020-11-26T22:12:28.310091+0300 DEBUG Product with gorupId '29831652' ready to download
-2020-11-26T22:12:30.856716+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/ka...
-2020-11-26T22:12:37.729974+0300 DEBUG Product with gorupId '29831652' was added
-2020-11-26T22:12:42.947456+0300 DEBUG Product with gorupId '31275779' ready to download
-2020-11-26T22:12:51.000163+0300 DEBUG Product with gorupId '31275779' was added
-2020-11-26T22:12:55.731447+0300 DEBUG Product with gorupId '31275779' was added
-2020-11-26T22:13:00.205672+0300 DEBUG Product with gorupId '31275779' was added
-2020-11-26T22:13:12.197799+0300 DEBUG Product with gorupId '180618' ready to download
-2020-11-26T22:13:24.881614+0300 DEBUG Product with gorupId '180618' was added
-2020-11-26T22:13:27.924317+0300 DEBUG Product with gorupId '180618' was added
-2020-11-26T22:13:31.732311+0300 DEBUG Product with gorupId '27500897' ready to download
-2020-11-26T22:13:34.226986+0300 DEBUG trying parse once product url - https://www.trendyol.com/giyimx/kadin...
-2020-11-26T22:13:37.957682+0300 DEBUG Product with gorupId '27500897' was added
-2020-11-26T22:13:45.712257+0300 DEBUG Product with gorupId '4023737' ready to download
-2020-11-26T22:13:51.712650+0300 DEBUG 'ConnectionError' info:
-None
-2020-11-26T22:13:54.836224+0300 DEBUG trying parse once product url - https://www.trendyol.com/orkide/kadin...
-2020-11-26T22:13:57.767414+0300 DEBUG Product with gorupId '4023737' was added
-2020-11-26T22:14:02.385440+0300 DEBUG Product with gorupId '28470940' ready to download
-2020-11-26T22:14:07.672398+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/ka...
-2020-11-26T22:14:20.289091+0300 DEBUG Сервер не отправил никаких данных в отведенное время.
-Пожалуйста проверьте интернет соединение.
-2020-11-26T22:17:02.897753+0300 DEBUG Product with gorupId '27559793' ready to download
-2020-11-26T22:17:04.694350+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/be...
-2020-11-26T22:17:06.855256+0300 DEBUG Product with gorupId '27559793' was added
-2020-11-26T22:17:08.749673+0300 DEBUG Product with gorupId '5244105' ready to download
-2020-11-26T22:17:10.950049+0300 DEBUG trying parse once product url - https://www.trendyol.com/giyimx/kadin...
-2020-11-26T22:17:12.180600+0300 DEBUG Product with gorupId '5244105' was added
-2020-11-26T22:17:13.892024+0300 DEBUG Product with gorupId '27925554' ready to download
-2020-11-26T22:17:15.141120+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/ka...
-2020-11-26T22:17:16.621318+0300 DEBUG Product with gorupId '27925554' was added
-2020-11-26T22:17:19.152135+0300 DEBUG Product with gorupId '27926189' ready to download
-2020-11-26T22:17:20.512561+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/ka...
-2020-11-26T22:17:22.095926+0300 DEBUG Product with gorupId '27926189' was added
-2020-11-26T22:17:23.746290+0300 DEBUG Product with gorupId '27259289' ready to download
-2020-11-26T22:17:26.697413+0300 DEBUG Product with gorupId '27259289' was added
-2020-11-26T22:17:28.210316+0300 DEBUG Product with gorupId '27259289' was added
-2020-11-26T22:17:31.133348+0300 DEBUG Product with gorupId '27259289' was added
-2020-11-26T22:17:33.394889+0300 DEBUG Product with gorupId '27259285' ready to download
-2020-11-26T22:17:44.929488+0300 DEBUG Product with gorupId '27259285' was added
-2020-11-26T22:17:46.781266+0300 DEBUG Product with gorupId '27259285' was added
-2020-11-26T22:17:48.306198+0300 DEBUG Product with gorupId '27259285' was added
-2020-11-26T22:17:52.277014+0300 DEBUG Product with gorupId '181367' ready to download
-2020-11-26T22:17:54.891280+0300 DEBUG trying parse once product url - https://www.trendyol.com/miorre/kadin...
-2020-11-26T22:17:58.910726+0300 DEBUG Product with gorupId '181367' was added
-2020-11-26T22:18:01.143476+0300 DEBUG Product with gorupId '393733' ready to download
-2020-11-26T22:18:02.900664+0300 DEBUG trying parse once product url - https://www.trendyol.com/miorre/kadin...
-2020-11-26T22:18:05.107048+0300 DEBUG Product with gorupId '393733' was added
-2020-11-26T22:18:08.137761+0300 DEBUG Product with gorupId '29732883' ready to download
-2020-11-26T22:18:09.339769+0300 DEBUG trying parse once product url - https://www.trendyol.com/penti/siyah-...
-2020-11-26T22:18:10.645403+0300 DEBUG Product with gorupId '29732883' was added
-2020-11-26T22:18:12.497968+0300 DEBUG Product with gorupId '498806' ready to download
-2020-11-26T22:18:17.412567+0300 DEBUG trying parse once product url - https://www.trendyol.com/miorre/tul-b...
-2020-11-26T22:18:19.242216+0300 DEBUG Product with gorupId '498806' was added
-2020-11-26T22:18:21.311859+0300 DEBUG Product with gorupId '349065' ready to download
-2020-11-26T22:18:23.840317+0300 DEBUG trying parse once product url - https://www.trendyol.com/miorre/babyd...
-2020-11-26T22:18:25.079210+0300 DEBUG Product with gorupId '349065' was added
-2020-11-26T22:18:29.056222+0300 DEBUG Product with gorupId '29446280' ready to download
-2020-11-26T22:18:31.028915+0300 DEBUG trying parse once product url - https://www.trendyol.com/merry-see/si...
-2020-11-26T22:18:32.412316+0300 DEBUG Product with gorupId '29446280' was added
-2020-11-26T22:18:37.386781+0300 DEBUG Product with gorupId '26585654' ready to download
-2020-11-26T22:18:39.551301+0300 DEBUG Product with gorupId '26585654' was added
-2020-11-26T22:18:41.180141+0300 DEBUG Product with gorupId '26585654' was added
-2020-11-26T22:18:43.111943+0300 DEBUG Product with gorupId '26585654' was added
-2020-11-26T22:18:45.272781+0300 DEBUG Product with gorupId '35725342' ready to download
-2020-11-26T22:18:48.675950+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:18:49.884711+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:18:51.327616+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:18:53.109026+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:18:55.237307+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:18:57.903679+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:19:00.259277+0300 DEBUG Product with gorupId '35725342' was added
-2020-11-26T22:19:04.653977+0300 DEBUG Product with gorupId '35725342' ready to download
-2020-11-26T22:19:08.561042+0300 DEBUG Product with gorupId '38779431' ready to download
-2020-11-26T22:19:12.155224+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:14.433922+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:15.777018+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:17.065569+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:18.493223+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:20.492726+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:22.946510+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:24.642316+0300 DEBUG Product with gorupId '38779431' was added
-2020-11-26T22:19:26.417738+0300 DEBUG Product with gorupId '29920133' ready to download
-2020-11-26T22:19:28.822260+0300 DEBUG Product with gorupId '29920133' was added
-2020-11-26T22:19:30.659227+0300 DEBUG Product with gorupId '29920133' was added
-2020-11-26T22:19:31.953278+0300 DEBUG Product with gorupId '29920133' was added
-2020-11-26T22:19:33.558908+0300 DEBUG Product with gorupId '29920133' was added
-2020-11-26T22:19:34.724916+0300 DEBUG Product with gorupId '29920133' was added
-2020-11-26T22:19:36.587467+0300 DEBUG Product with gorupId '2878867' ready to download
-2020-11-26T22:19:38.142536+0300 DEBUG trying parse once product url - https://www.trendyol.com/pierre-cardi...
-2020-11-26T22:19:39.303029+0300 DEBUG Product with gorupId '2878867' was added
-2020-11-26T22:19:40.868272+0300 DEBUG Product with gorupId '38779431' ready to download
-2020-11-26T22:19:43.414308+0300 DEBUG Product with gorupId '2878866' ready to download
-2020-11-26T22:19:45.522924+0300 DEBUG Product with gorupId '2878866' was added
-2020-11-26T22:19:46.871208+0300 DEBUG Product with gorupId '2878866' was added
-2020-11-26T22:19:48.196391+0300 DEBUG Product with gorupId '2878866' was added
+2021-01-29T21:27:52.296904+0300 DEBUG Product with gorupId '26585654' ready to download
+2021-01-29T21:27:57.952719+0300 DEBUG Product with gorupId '26585654' was added
+2021-01-29T21:28:00.291497+0300 DEBUG Product with gorupId '26585654' was added
+2021-01-29T21:28:03.208830+0300 DEBUG Product with gorupId '26585654' was added
+2021-01-29T21:28:07.729536+0300 DEBUG Product with gorupId '35725342' ready to download
+2021-01-29T21:28:15.061521+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:18.022680+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:22.638307+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:25.222330+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:28.028749+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:30.941965+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:33.671176+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:36.670574+0300 DEBUG Product with gorupId '35725342' was added
+2021-01-29T21:28:40.094608+0300 DEBUG Product with gorupId '26866911' ready to download
+2021-01-29T21:28:42.827741+0300 DEBUG trying parse once product url - https://www.trendyol.com/cansoy/kadin...
+2021-01-29T21:28:45.797618+0300 DEBUG Product with gorupId '26866911' was added
+2021-01-29T21:28:48.632793+0300 DEBUG Product with gorupId '38779431' ready to download
+2021-01-29T21:28:53.867961+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:28:56.829757+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:28:59.912897+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:02.812028+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:05.786174+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:08.767899+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:11.821207+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:14.952791+0300 DEBUG Product with gorupId '38779431' was added
+2021-01-29T21:29:18.249911+0300 DEBUG Product with gorupId '35725342' ready to download
+2021-01-29T21:29:21.236104+0300 DEBUG Product with gorupId '26585648' ready to download
+2021-01-29T21:29:26.848907+0300 DEBUG Product with gorupId '26585648' was added
+2021-01-29T21:29:30.340597+0300 DEBUG Product with gorupId '26585648' was added
+2021-01-29T21:29:33.489437+0300 DEBUG Product with gorupId '26585648' was added
+2021-01-29T21:29:36.694485+0300 DEBUG Product with gorupId '39254803' ready to download
+2021-01-29T21:29:42.322937+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:45.399566+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:47.978231+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:50.895525+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:53.706634+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:56.576751+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:29:59.512550+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:30:03.220265+0300 DEBUG Product with gorupId '39254803' was added
+2021-01-29T21:30:06.064797+0300 DEBUG Product with gorupId '39254803' was added
