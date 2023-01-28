@@ -233,8 +233,6 @@ print('*' * 60)
 
 # start
 if https_proxies and https_proxies:
-    # for url in urls:
-    #     parse_info(get_response(url), r"data/out.csv")
     for categ in categories:
         parse(categ)
 else:
@@ -244,58 +242,3 @@ sys.exit(0)
 
 # author: Hudoits Dzianis
 # e-mail: gudoyt99@gmail.com
-
-
-# global count_products
-# with open(path, '+ab') as fp:
-#     try:
-#         # unpack
-#         prod = json_['product']
-#         variants = prod['variants']
-#         variant = variants[0]
-#
-#         stock = "instock" if variant['stock'] is None else "outofstock"
-#         size = variant['attributeValue']
-#         price = variant['price']['originalPrice']['value']
-#         discount = variant['price']['discountedPrice']['value']
-#         group_id = prod['productGroupId']
-#         barcode = variant['barcode']
-#         description = simplify(BSoup(prod['description'], 'html.parser').text)
-#         name = prod['name']
-#         brand = prod['brand']['name']
-#         color = prod['color']
-#         if DOWNLOAD_IMAGES:
-#             images = ','.join(
-#                 download_image([picdomain + ipath for ipath in prod['images']]))
-#         else:
-#             images = ','.join([picdomain + ipath for ipath in prod['images']])
-#
-#         count_products += 1
-#
-#         # writing into csv file
-#         fp.write(bytes(
-#             f"{brand};{name};{barcode};{group_id};{size};{color};{stock};{price};{discount};{description};{images};\n"
-#             , encoding="utf-8"))
-#
-#         variants = variants[1:]
-#         for variant in variants:
-#             stock = "instock" if variant['stock'] is None else "outofstock"
-#             size = variant['attributeValue']
-#             price = variant['price']['originalPrice']['value']
-#             discount = variant['price']['discountedPrice']['value']
-#             group_id = prod['productGroupId']
-#             barcode = variant['barcode']
-#
-#             if DOWNLOAD_IMAGES:
-#                 images = ','.join(
-#                     download_image([picdomain + ipath for ipath in prod['images']]))
-#             else:
-#                 images = ','.join([picdomain + ipath for ipath in prod['images']])
-#
-#             count_products += 1
-#
-#             # writing into csv file
-#             fp.write(bytes(f";;{barcode};{group_id};{size};{color};{stock};{price};{discount};;;\n"
-#                            , encoding="utf-8"))
-#
-#             print(f'\rЗагружено {count_products} вариантов товаров . . .', end='')
